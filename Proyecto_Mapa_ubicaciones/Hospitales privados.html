@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_ba0fae1c93da43779b9cef7f26578331 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ba0fae1c93da43779b9cef7f26578331" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_ba0fae1c93da43779b9cef7f26578331 = L.map(
+                                  'map_ba0fae1c93da43779b9cef7f26578331',
+                                  {center: [-12.143927,-77.019295],
+                                  zoom: 10,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_378d163a70ed46059a514536d53d1b28 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_ba0fae1c93da43779b9cef7f26578331);
+        
+    
+            var feature_group_b0953341eedf45ef94fa047a5a0eeea6 = L.featureGroup(
+                ).addTo(map_ba0fae1c93da43779b9cef7f26578331);
+        
+    
+
+            var marker_70d7732bf1594673940b3a53089284fe = L.marker(
+                [-12.147486,-77.018908],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_b0953341eedf45ef94fa047a5a0eeea6);
+            
+    
+
+                var icon_56cf48c1b5324a67bdf51dca77bd7382 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_70d7732bf1594673940b3a53089284fe.setIcon(icon_56cf48c1b5324a67bdf51dca77bd7382);
+            
+    
+            var popup_26e9edd076d94da69dbeb21ffd552d3f = L.popup({maxWidth: '300'});
+
+            
+                var html_50bc4b7b7bac4c5dbc6862efe0227466 = $('<div id="html_50bc4b7b7bac4c5dbc6862efe0227466" style="width: 100.0%; height: 100.0%;">Policlinico Barranco</div>')[0];
+                popup_26e9edd076d94da69dbeb21ffd552d3f.setContent(html_50bc4b7b7bac4c5dbc6862efe0227466);
+            
+
+            marker_70d7732bf1594673940b3a53089284fe.bindPopup(popup_26e9edd076d94da69dbeb21ffd552d3f);
+
+            
+        
+    
+            var feature_group_97c6bb26ceb54102a27fff9d6ec8d7a2 = L.featureGroup(
+                ).addTo(map_ba0fae1c93da43779b9cef7f26578331);
+        
+    
+
+            var marker_52b41be3d22641319568d0bea22e98ab = L.marker(
+                [-12.152515,-77.022384],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_97c6bb26ceb54102a27fff9d6ec8d7a2);
+            
+    
+
+                var icon_9f444f3f24454951871d5d7c0659e21e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_52b41be3d22641319568d0bea22e98ab.setIcon(icon_9f444f3f24454951871d5d7c0659e21e);
+            
+    
+            var popup_8228cbafd7064f979abdc7d9de8a07c8 = L.popup({maxWidth: '300'});
+
+            
+                var html_9965d87a2bee4262b56c1a2e810e1581 = $('<div id="html_9965d87a2bee4262b56c1a2e810e1581" style="width: 100.0%; height: 100.0%;">Sociedad Italiana de Beneficencia y Asistencia</div>')[0];
+                popup_8228cbafd7064f979abdc7d9de8a07c8.setContent(html_9965d87a2bee4262b56c1a2e810e1581);
+            
+
+            marker_52b41be3d22641319568d0bea22e98ab.bindPopup(popup_8228cbafd7064f979abdc7d9de8a07c8);
+
+            
+        
+    
+            var feature_group_75c904ddf5964583aa0229af35c17dd4 = L.featureGroup(
+                ).addTo(map_ba0fae1c93da43779b9cef7f26578331);
+        
+    
+
+            var marker_02f5ce85fc134b3e88d99b1dd4fb3842 = L.marker(
+                [-12.134964,-77.019678],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_75c904ddf5964583aa0229af35c17dd4);
+            
+    
+
+                var icon_b2d3af28dafe421da598fb173453b96a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_02f5ce85fc134b3e88d99b1dd4fb3842.setIcon(icon_b2d3af28dafe421da598fb173453b96a);
+            
+    
+            var popup_f1afaa0f3d5e42a4a9704fddc78907c2 = L.popup({maxWidth: '300'});
+
+            
+                var html_1bd68658167e4603be46633b8500631f = $('<div id="html_1bd68658167e4603be46633b8500631f" style="width: 100.0%; height: 100.0%;">Infinity - Clinica Dental Especializada</div>')[0];
+                popup_f1afaa0f3d5e42a4a9704fddc78907c2.setContent(html_1bd68658167e4603be46633b8500631f);
+            
+
+            marker_02f5ce85fc134b3e88d99b1dd4fb3842.bindPopup(popup_f1afaa0f3d5e42a4a9704fddc78907c2);
+
+            
+        
+</script>

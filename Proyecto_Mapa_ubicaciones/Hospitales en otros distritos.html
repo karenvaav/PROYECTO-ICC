@@ -1,0 +1,1137 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_643ae829da354dd6b6f35a1426221d10 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_643ae829da354dd6b6f35a1426221d10" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_643ae829da354dd6b6f35a1426221d10 = L.map(
+                                  'map_643ae829da354dd6b6f35a1426221d10',
+                                  {center: [-12.143927,-77.019295],
+                                  zoom: 10,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_b6e07f34c84d4d2cb41ed6f5f3cb3078 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_643ae829da354dd6b6f35a1426221d10);
+        
+    
+            var feature_group_8038fe1e5844438abf510a65adced2cd = L.featureGroup(
+                ).addTo(map_643ae829da354dd6b6f35a1426221d10);
+        
+    
+
+            var marker_e4387d30e8e84a7a9fd5f021b2c091a1 = L.marker(
+                [-12.133554,-77.013509],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_8038fe1e5844438abf510a65adced2cd);
+            
+    
+
+                var icon_40bdc376dd5b4e0493b6bf55c44886b0 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e4387d30e8e84a7a9fd5f021b2c091a1.setIcon(icon_40bdc376dd5b4e0493b6bf55c44886b0);
+            
+    
+            var popup_1b1e16a4d481489ca9f07e90cf586868 = L.popup({maxWidth: '300'});
+
+            
+                var html_6fb73308eb6d47c481ce275f758faf8d = $('<div id="html_6fb73308eb6d47c481ce275f758faf8d" style="width: 100.0%; height: 100.0%;">Centro Medico Rosedal</div>')[0];
+                popup_1b1e16a4d481489ca9f07e90cf586868.setContent(html_6fb73308eb6d47c481ce275f758faf8d);
+            
+
+            marker_e4387d30e8e84a7a9fd5f021b2c091a1.bindPopup(popup_1b1e16a4d481489ca9f07e90cf586868);
+
+            
+        
+    
+            var feature_group_3ef6842000b448a48626735dbfc7b321 = L.featureGroup(
+                ).addTo(map_643ae829da354dd6b6f35a1426221d10);
+        
+    
+
+            var marker_23e6a6a8c76b4588ad8160c2eeeac336 = L.marker(
+                [-12.144674,-77.00571],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_3ef6842000b448a48626735dbfc7b321);
+            
+    
+
+                var icon_32718b20772146f392bfa9229299acf9 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_23e6a6a8c76b4588ad8160c2eeeac336.setIcon(icon_32718b20772146f392bfa9229299acf9);
+            
+    
+            var popup_c0b98c0734f641c18745d588f03716e6 = L.popup({maxWidth: '300'});
+
+            
+                var html_6b368b64074d4add8d2c2d2513b17db5 = $('<div id="html_6b368b64074d4add8d2c2d2513b17db5" style="width: 100.0%; height: 100.0%;">Hospital Municipal Surco Salud</div>')[0];
+                popup_c0b98c0734f641c18745d588f03716e6.setContent(html_6b368b64074d4add8d2c2d2513b17db5);
+            
+
+            marker_23e6a6a8c76b4588ad8160c2eeeac336.bindPopup(popup_c0b98c0734f641c18745d588f03716e6);
+
+            
+        
+    
+            var feature_group_54bf5364c7a44104a0e1033b72c1055f = L.featureGroup(
+                ).addTo(map_643ae829da354dd6b6f35a1426221d10);
+        
+    
+
+            var marker_0f333ac9088a42b999a7ece23bdb5365 = L.marker(
+                [-12.167456,-77.01675300000001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_54bf5364c7a44104a0e1033b72c1055f);
+            
+    
+
+                var icon_7cba22d00a9f4c4084e385900fdaae0f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0f333ac9088a42b999a7ece23bdb5365.setIcon(icon_7cba22d00a9f4c4084e385900fdaae0f);
+            
+    
+            var popup_bfeff58d16354d16806bed84ccec42bb = L.popup({maxWidth: '300'});
+
+            
+                var html_c0fe30cbd52b491cb702708c97d4bdbf = $('<div id="html_c0fe30cbd52b491cb702708c97d4bdbf" style="width: 100.0%; height: 100.0%;">Hospital De La Solidaridad</div>')[0];
+                popup_bfeff58d16354d16806bed84ccec42bb.setContent(html_c0fe30cbd52b491cb702708c97d4bdbf);
+            
+
+            marker_0f333ac9088a42b999a7ece23bdb5365.bindPopup(popup_bfeff58d16354d16806bed84ccec42bb);
+
+            
+        
+    
+            var feature_group_e1f217dda7974b6991f75043f07ad900 = L.featureGroup(
+                ).addTo(map_643ae829da354dd6b6f35a1426221d10);
+        
+    
+
+            var marker_52a496d8085148399ec7b7da11836e45 = L.marker(
+                [-12.166008999999999,-77.020073],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_e1f217dda7974b6991f75043f07ad900);
+            
+    
+
+                var icon_a19da2b198d44891a03da71ca972eac7 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_52a496d8085148399ec7b7da11836e45.setIcon(icon_a19da2b198d44891a03da71ca972eac7);
+            
+    
+            var popup_844dc34cf2ee4897b1cdc072eeda5419 = L.popup({maxWidth: '300'});
+
+            
+                var html_43c3cc0d67cd43b58754139c47254873 = $('<div id="html_43c3cc0d67cd43b58754139c47254873" style="width: 100.0%; height: 100.0%;">Centro Materno Infantil de Salud Chorrillos II</div>')[0];
+                popup_844dc34cf2ee4897b1cdc072eeda5419.setContent(html_43c3cc0d67cd43b58754139c47254873);
+            
+
+            marker_52a496d8085148399ec7b7da11836e45.bindPopup(popup_844dc34cf2ee4897b1cdc072eeda5419);
+
+            
+        
+    
+            var feature_group_8758ebc51de44bb38a661ea0f04e691d = L.featureGroup(
+                ).addTo(map_643ae829da354dd6b6f35a1426221d10);
+        
+    
+
+            var marker_e263153ef6ff4f7d808dc724e7145643 = L.marker(
+                [-12.167597,-77.022924],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_8758ebc51de44bb38a661ea0f04e691d);
+            
+    
+
+                var icon_16d43f9e21fa4d8190f5643be7ecb852 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e263153ef6ff4f7d808dc724e7145643.setIcon(icon_16d43f9e21fa4d8190f5643be7ecb852);
+            
+    
+            var popup_fbf0a37880eb4764889b0d0b91022f49 = L.popup({maxWidth: '300'});
+
+            
+                var html_5927d5462e3d49e392fdd7aacf2ae6b2 = $('<div id="html_5927d5462e3d49e392fdd7aacf2ae6b2" style="width: 100.0%; height: 100.0%;">Asistencia Pública de Chorrillos</div>')[0];
+                popup_fbf0a37880eb4764889b0d0b91022f49.setContent(html_5927d5462e3d49e392fdd7aacf2ae6b2);
+            
+
+            marker_e263153ef6ff4f7d808dc724e7145643.bindPopup(popup_fbf0a37880eb4764889b0d0b91022f49);
+
+            
+        
+    
+            var feature_group_f6ad2958db14422fae98819a1cef0f54 = L.featureGroup(
+                ).addTo(map_643ae829da354dd6b6f35a1426221d10);
+        
+    
+
+            var marker_9bd1af4d059d4ae1a97c0813760a0df3 = L.marker(
+                [-12.172888,-77.024872],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_f6ad2958db14422fae98819a1cef0f54);
+            
+    
+
+                var icon_85758a6a0a964e6a96471f0621e38ecb = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9bd1af4d059d4ae1a97c0813760a0df3.setIcon(icon_85758a6a0a964e6a96471f0621e38ecb);
+            
+    
+            var popup_9176ae758e0f454ab5ea4bbf3f263f06 = L.popup({maxWidth: '300'});
+
+            
+                var html_f02f550dc8b14d819504c7df7d562411 = $('<div id="html_f02f550dc8b14d819504c7df7d562411" style="width: 100.0%; height: 100.0%;">Clinica Parroquial San Francisco de Asis</div>')[0];
+                popup_9176ae758e0f454ab5ea4bbf3f263f06.setContent(html_f02f550dc8b14d819504c7df7d562411);
+            
+
+            marker_9bd1af4d059d4ae1a97c0813760a0df3.bindPopup(popup_9176ae758e0f454ab5ea4bbf3f263f06);
+
+            
+        
+    
+            var feature_group_dfce53f4bfd2465ba04185caf98f3cf6 = L.featureGroup(
+                ).addTo(map_643ae829da354dd6b6f35a1426221d10);
+        
+    
+
+            var marker_67c4959f38714b648b14fb6e90a980e3 = L.marker(
+                [-12.174723,-77.020397],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_dfce53f4bfd2465ba04185caf98f3cf6);
+            
+    
+
+                var icon_9cb9501db734423d933a2565ee53d046 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_67c4959f38714b648b14fb6e90a980e3.setIcon(icon_9cb9501db734423d933a2565ee53d046);
+            
+    
+            var popup_6e7077601d6f405587d70e61319c6c48 = L.popup({maxWidth: '300'});
+
+            
+                var html_5ebbaf6eb5e5467aa9cbfd7fa273ab4f = $('<div id="html_5ebbaf6eb5e5467aa9cbfd7fa273ab4f" style="width: 100.0%; height: 100.0%;">Clínica Real Los Laureles</div>')[0];
+                popup_6e7077601d6f405587d70e61319c6c48.setContent(html_5ebbaf6eb5e5467aa9cbfd7fa273ab4f);
+            
+
+            marker_67c4959f38714b648b14fb6e90a980e3.bindPopup(popup_6e7077601d6f405587d70e61319c6c48);
+
+            
+        
+    
+            var feature_group_76f07b1cf0294ba9881089cd0eb5f4fd = L.featureGroup(
+                ).addTo(map_643ae829da354dd6b6f35a1426221d10);
+        
+    
+
+            var marker_e90d713d06854f96822f2aa21134237a = L.marker(
+                [-12.183048,-77.015959],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_76f07b1cf0294ba9881089cd0eb5f4fd);
+            
+    
+
+                var icon_4f7fde0bd82b45208d38ae89f9a66e14 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e90d713d06854f96822f2aa21134237a.setIcon(icon_4f7fde0bd82b45208d38ae89f9a66e14);
+            
+    
+            var popup_a87d9b93283d40ffbeaff1251861f815 = L.popup({maxWidth: '300'});
+
+            
+                var html_ea9410fe46f84a818a00f2c377c85500 = $('<div id="html_ea9410fe46f84a818a00f2c377c85500" style="width: 100.0%; height: 100.0%;">Instituto Nacional de Salud</div>')[0];
+                popup_a87d9b93283d40ffbeaff1251861f815.setContent(html_ea9410fe46f84a818a00f2c377c85500);
+            
+
+            marker_e90d713d06854f96822f2aa21134237a.bindPopup(popup_a87d9b93283d40ffbeaff1251861f815);
+
+            
+        
+    
+            var feature_group_c30d57e24c2343b28deca8ce7114cf2e = L.featureGroup(
+                ).addTo(map_643ae829da354dd6b6f35a1426221d10);
+        
+    
+
+            var marker_f4edaa45b3904925961dcbc1ce976c24 = L.marker(
+                [-12.172677,-77.012169],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_c30d57e24c2343b28deca8ce7114cf2e);
+            
+    
+
+                var icon_7caf3132fc84432a95e7c61b9a3e460f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f4edaa45b3904925961dcbc1ce976c24.setIcon(icon_7caf3132fc84432a95e7c61b9a3e460f);
+            
+    
+            var popup_2b57ee41e68143f3a69da292f24c53c1 = L.popup({maxWidth: '300'});
+
+            
+                var html_3044d0014f99485988a835ce762e02cf = $('<div id="html_3044d0014f99485988a835ce762e02cf" style="width: 100.0%; height: 100.0%;">Centro Médico Clínica Ricardo Palma</div>')[0];
+                popup_2b57ee41e68143f3a69da292f24c53c1.setContent(html_3044d0014f99485988a835ce762e02cf);
+            
+
+            marker_f4edaa45b3904925961dcbc1ce976c24.bindPopup(popup_2b57ee41e68143f3a69da292f24c53c1);
+
+            
+        
+    
+            var feature_group_7fcb55eb030045c69d117ccee6851f2f = L.featureGroup(
+                ).addTo(map_643ae829da354dd6b6f35a1426221d10);
+        
+    
+
+            var marker_903af3c8280b46ef87f4246ee5ca3a6d = L.marker(
+                [-12.169005,-77.023237],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_7fcb55eb030045c69d117ccee6851f2f);
+            
+    
+
+                var icon_74d0ece6cef349fd97e14f9fa48b7743 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_903af3c8280b46ef87f4246ee5ca3a6d.setIcon(icon_74d0ece6cef349fd97e14f9fa48b7743);
+            
+    
+            var popup_dba5c8b99c7043b385963fcc32cd6eec = L.popup({maxWidth: '300'});
+
+            
+                var html_c338ba17b1494e29b122956961892c1a = $('<div id="html_c338ba17b1494e29b122956961892c1a" style="width: 100.0%; height: 100.0%;">C.S. Gustavo Lanatta Lujan</div>')[0];
+                popup_dba5c8b99c7043b385963fcc32cd6eec.setContent(html_c338ba17b1494e29b122956961892c1a);
+            
+
+            marker_903af3c8280b46ef87f4246ee5ca3a6d.bindPopup(popup_dba5c8b99c7043b385963fcc32cd6eec);
+
+            
+        
+    
+            var feature_group_8504d4fdcda54a76bff05cefcf24b08b = L.featureGroup(
+                ).addTo(map_643ae829da354dd6b6f35a1426221d10);
+        
+    
+
+            var marker_b391f96603d44d3a98031e1b24aaa483 = L.marker(
+                [-12.176822999999999,-77.000125],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_8504d4fdcda54a76bff05cefcf24b08b);
+            
+    
+
+                var icon_2e7b9e2994404c25a4192575cbb26ae8 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b391f96603d44d3a98031e1b24aaa483.setIcon(icon_2e7b9e2994404c25a4192575cbb26ae8);
+            
+    
+            var popup_30d036c0d85d494283c42c9b88f550c1 = L.popup({maxWidth: '300'});
+
+            
+                var html_6da7e860bbad4616b31610b240bcd142 = $('<div id="html_6da7e860bbad4616b31610b240bcd142" style="width: 100.0%; height: 100.0%;">Policlínico ESSALUD Juan José Rodríguez Lazo</div>')[0];
+                popup_30d036c0d85d494283c42c9b88f550c1.setContent(html_6da7e860bbad4616b31610b240bcd142);
+            
+
+            marker_b391f96603d44d3a98031e1b24aaa483.bindPopup(popup_30d036c0d85d494283c42c9b88f550c1);
+
+            
+        
+    
+            var feature_group_c6c6c79bffbb49de948d4bc5197f6f5c = L.featureGroup(
+                ).addTo(map_643ae829da354dd6b6f35a1426221d10);
+        
+    
+
+            var marker_7989329be9a64b62997e527b103fe7f4 = L.marker(
+                [-12.161937,-77.015855],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_c6c6c79bffbb49de948d4bc5197f6f5c);
+            
+    
+
+                var icon_d5f1ebd1a9c946e9b390eadeb5c2403e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7989329be9a64b62997e527b103fe7f4.setIcon(icon_d5f1ebd1a9c946e9b390eadeb5c2403e);
+            
+    
+            var popup_3bf41ab0c28b4366819d9147f7959d14 = L.popup({maxWidth: '300'});
+
+            
+                var html_ee3a4fe08b4446bab39d214e723fb406 = $('<div id="html_ee3a4fe08b4446bab39d214e723fb406" style="width: 100.0%; height: 100.0%;">Clinica Geriatrica Del Ejercito</div>')[0];
+                popup_3bf41ab0c28b4366819d9147f7959d14.setContent(html_ee3a4fe08b4446bab39d214e723fb406);
+            
+
+            marker_7989329be9a64b62997e527b103fe7f4.bindPopup(popup_3bf41ab0c28b4366819d9147f7959d14);
+
+            
+        
+    
+            var feature_group_424dab42248341fe992245ae4acd6b64 = L.featureGroup(
+                ).addTo(map_643ae829da354dd6b6f35a1426221d10);
+        
+    
+
+            var marker_710d5ce96c6247cf9d5c97e09b81b08d = L.marker(
+                [-12.147267999999999,-77.005193],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_424dab42248341fe992245ae4acd6b64);
+            
+    
+
+                var icon_8c4bfce778f84cc6970c6a38cdce1f2f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_710d5ce96c6247cf9d5c97e09b81b08d.setIcon(icon_8c4bfce778f84cc6970c6a38cdce1f2f);
+            
+    
+            var popup_b52da6a86a5b4ce48a1c1227f21ec6d0 = L.popup({maxWidth: '300'});
+
+            
+                var html_2f24d7c8995247419de9ae47d5171882 = $('<div id="html_2f24d7c8995247419de9ae47d5171882" style="width: 100.0%; height: 100.0%;">Centro de Salud del MINSA - Surco</div>')[0];
+                popup_b52da6a86a5b4ce48a1c1227f21ec6d0.setContent(html_2f24d7c8995247419de9ae47d5171882);
+            
+
+            marker_710d5ce96c6247cf9d5c97e09b81b08d.bindPopup(popup_b52da6a86a5b4ce48a1c1227f21ec6d0);
+
+            
+        
+    
+            var feature_group_69060617c3ae4605b0729c9b9bd2510d = L.featureGroup(
+                ).addTo(map_643ae829da354dd6b6f35a1426221d10);
+        
+    
+
+            var marker_26408db045424dd886f92c7f3374a191 = L.marker(
+                [-12.151653999999999,-77.00139200000001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_69060617c3ae4605b0729c9b9bd2510d);
+            
+    
+
+                var icon_4448d481f120424d8b36a270aad48b5b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_26408db045424dd886f92c7f3374a191.setIcon(icon_4448d481f120424d8b36a270aad48b5b);
+            
+    
+            var popup_3a69b3025a7241fc857e5b8c28cb65b4 = L.popup({maxWidth: '300'});
+
+            
+                var html_12717bd5e17c48ff8f50185171e9f4ef = $('<div id="html_12717bd5e17c48ff8f50185171e9f4ef" style="width: 100.0%; height: 100.0%;">Hospital FAP Las Palmas</div>')[0];
+                popup_3a69b3025a7241fc857e5b8c28cb65b4.setContent(html_12717bd5e17c48ff8f50185171e9f4ef);
+            
+
+            marker_26408db045424dd886f92c7f3374a191.bindPopup(popup_3a69b3025a7241fc857e5b8c28cb65b4);
+
+            
+        
+    
+            var feature_group_99d7cf12953240ccbf8052b1eede0489 = L.featureGroup(
+                ).addTo(map_643ae829da354dd6b6f35a1426221d10);
+        
+    
+
+            var marker_5734b89f643b479cb394428405fd4cfc = L.marker(
+                [-12.149592,-76.989103],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_99d7cf12953240ccbf8052b1eede0489);
+            
+    
+
+                var icon_8fb0c434913e4167944bb4dea9ad30c8 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5734b89f643b479cb394428405fd4cfc.setIcon(icon_8fb0c434913e4167944bb4dea9ad30c8);
+            
+    
+            var popup_a52e8652ac7946bda4a9925061ec9fa0 = L.popup({maxWidth: '300'});
+
+            
+                var html_e8c5296f92a54afb94b4b657901ee64d = $('<div id="html_e8c5296f92a54afb94b4b657901ee64d" style="width: 100.0%; height: 100.0%;">Policlínico EsSalud Los Próceres</div>')[0];
+                popup_a52e8652ac7946bda4a9925061ec9fa0.setContent(html_e8c5296f92a54afb94b4b657901ee64d);
+            
+
+            marker_5734b89f643b479cb394428405fd4cfc.bindPopup(popup_a52e8652ac7946bda4a9925061ec9fa0);
+
+            
+        
+    
+            var feature_group_bfcd3dac7a8e44a7a1163a10cdb5cd8d = L.featureGroup(
+                ).addTo(map_643ae829da354dd6b6f35a1426221d10);
+        
+    
+
+            var marker_71623ddcfb2a4d63a355ebff0f6e1671 = L.marker(
+                [-12.174619999999999,-76.962817],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_bfcd3dac7a8e44a7a1163a10cdb5cd8d);
+            
+    
+
+                var icon_4cf1a4710a154ab5b305f0ab3dd5aaf0 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_71623ddcfb2a4d63a355ebff0f6e1671.setIcon(icon_4cf1a4710a154ab5b305f0ab3dd5aaf0);
+            
+    
+            var popup_912f12f9f3cd4b2e8525f15a5c08dad9 = L.popup({maxWidth: '300'});
+
+            
+                var html_9efd4baea9b44e50b560f69ba86d9cca = $('<div id="html_9efd4baea9b44e50b560f69ba86d9cca" style="width: 100.0%; height: 100.0%;">Policlinico Sagrada Familia</div>')[0];
+                popup_912f12f9f3cd4b2e8525f15a5c08dad9.setContent(html_9efd4baea9b44e50b560f69ba86d9cca);
+            
+
+            marker_71623ddcfb2a4d63a355ebff0f6e1671.bindPopup(popup_912f12f9f3cd4b2e8525f15a5c08dad9);
+
+            
+        
+    
+            var feature_group_794167ce37c5483aa81d45d3812c9e71 = L.featureGroup(
+                ).addTo(map_643ae829da354dd6b6f35a1426221d10);
+        
+    
+
+            var marker_7a89e99e863e487da07e6fa75fb096b4 = L.marker(
+                [-12.153523,-76.972622],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_794167ce37c5483aa81d45d3812c9e71);
+            
+    
+
+                var icon_16a1c6711fb2465d839629053f9e5a7a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7a89e99e863e487da07e6fa75fb096b4.setIcon(icon_16a1c6711fb2465d839629053f9e5a7a);
+            
+    
+            var popup_75de62cc435049579b38dcae2b46fd58 = L.popup({maxWidth: '300'});
+
+            
+                var html_044c7eb8ac4d47d8980e9f08ad277dba = $('<div id="html_044c7eb8ac4d47d8980e9f08ad277dba" style="width: 100.0%; height: 100.0%;">Centro de Salud Leonor Saavedra</div>')[0];
+                popup_75de62cc435049579b38dcae2b46fd58.setContent(html_044c7eb8ac4d47d8980e9f08ad277dba);
+            
+
+            marker_7a89e99e863e487da07e6fa75fb096b4.bindPopup(popup_75de62cc435049579b38dcae2b46fd58);
+
+            
+        
+    
+            var feature_group_eec8c691753d452a9ad68391e1f6884e = L.featureGroup(
+                ).addTo(map_643ae829da354dd6b6f35a1426221d10);
+        
+    
+
+            var marker_eec3939cfcf2471b889cf144fe3a5f07 = L.marker(
+                [-12.152325999999999,-76.967927],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_eec8c691753d452a9ad68391e1f6884e);
+            
+    
+
+                var icon_482a59ffbe5b4c4ea2dc20d93a2a9858 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_eec3939cfcf2471b889cf144fe3a5f07.setIcon(icon_482a59ffbe5b4c4ea2dc20d93a2a9858);
+            
+    
+            var popup_af9a13aa82e9425b83dd341d144e0477 = L.popup({maxWidth: '300'});
+
+            
+                var html_4121d249533f44739466045f6e852ec9 = $('<div id="html_4121d249533f44739466045f6e852ec9" style="width: 100.0%; height: 100.0%;">Centro Materno Infantil Manuel Barreto</div>')[0];
+                popup_af9a13aa82e9425b83dd341d144e0477.setContent(html_4121d249533f44739466045f6e852ec9);
+            
+
+            marker_eec3939cfcf2471b889cf144fe3a5f07.bindPopup(popup_af9a13aa82e9425b83dd341d144e0477);
+
+            
+        
+    
+            var feature_group_be79e4d86cb94f678b19b0dbfe02f4a3 = L.featureGroup(
+                ).addTo(map_643ae829da354dd6b6f35a1426221d10);
+        
+    
+
+            var marker_9a8c343123004e76bd7b884e667e8117 = L.marker(
+                [-12.168191,-76.96313],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_be79e4d86cb94f678b19b0dbfe02f4a3);
+            
+    
+
+                var icon_8024a39a40f2496bb1cf70a6e1fcabac = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9a8c343123004e76bd7b884e667e8117.setIcon(icon_8024a39a40f2496bb1cf70a6e1fcabac);
+            
+    
+            var popup_d2cf7b36bb8d4297863f900b0b48d387 = L.popup({maxWidth: '300'});
+
+            
+                var html_cddef0f3509d4aefbcd4e56eaa713f50 = $('<div id="html_cddef0f3509d4aefbcd4e56eaa713f50" style="width: 100.0%; height: 100.0%;">Clinica Santa Maria Del Sur</div>')[0];
+                popup_d2cf7b36bb8d4297863f900b0b48d387.setContent(html_cddef0f3509d4aefbcd4e56eaa713f50);
+            
+
+            marker_9a8c343123004e76bd7b884e667e8117.bindPopup(popup_d2cf7b36bb8d4297863f900b0b48d387);
+
+            
+        
+    
+            var feature_group_a2fbcb1223674f488c53ea7972ca91a9 = L.featureGroup(
+                ).addTo(map_643ae829da354dd6b6f35a1426221d10);
+        
+    
+
+            var marker_a5e4b742726d48efa3412de96dd37dfd = L.marker(
+                [-12.160612,-76.973618],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_a2fbcb1223674f488c53ea7972ca91a9);
+            
+    
+
+                var icon_c90af61b44014af39ae59296ee94c313 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a5e4b742726d48efa3412de96dd37dfd.setIcon(icon_c90af61b44014af39ae59296ee94c313);
+            
+    
+            var popup_8fab58c065744c16a4c65c2b505e7be9 = L.popup({maxWidth: '300'});
+
+            
+                var html_9fe8099844144a99b24db3155340d6dd = $('<div id="html_9fe8099844144a99b24db3155340d6dd" style="width: 100.0%; height: 100.0%;">Red De Salud Solidario</div>')[0];
+                popup_8fab58c065744c16a4c65c2b505e7be9.setContent(html_9fe8099844144a99b24db3155340d6dd);
+            
+
+            marker_a5e4b742726d48efa3412de96dd37dfd.bindPopup(popup_8fab58c065744c16a4c65c2b505e7be9);
+
+            
+        
+    
+            var feature_group_7306c2bdf8684a5a8aa042b7cd1fba95 = L.featureGroup(
+                ).addTo(map_643ae829da354dd6b6f35a1426221d10);
+        
+    
+
+            var marker_f76464fabb3047f7bac51e1426d6f27f = L.marker(
+                [-12.129734,-76.979003],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_7306c2bdf8684a5a8aa042b7cd1fba95);
+            
+    
+
+                var icon_9596062773f348d3a32e973a4c5c413b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f76464fabb3047f7bac51e1426d6f27f.setIcon(icon_9596062773f348d3a32e973a4c5c413b);
+            
+    
+            var popup_90613b183008491d828e64f0126a50df = L.popup({maxWidth: '300'});
+
+            
+                var html_fc370b48f8df4873a99e8c93046b06ad = $('<div id="html_fc370b48f8df4873a99e8c93046b06ad" style="width: 100.0%; height: 100.0%;">Clínica Maison de Santé del Este</div>')[0];
+                popup_90613b183008491d828e64f0126a50df.setContent(html_fc370b48f8df4873a99e8c93046b06ad);
+            
+
+            marker_f76464fabb3047f7bac51e1426d6f27f.bindPopup(popup_90613b183008491d828e64f0126a50df);
+
+            
+        
+    
+            var feature_group_ebfae04044484978ae30a76b3ac08294 = L.featureGroup(
+                ).addTo(map_643ae829da354dd6b6f35a1426221d10);
+        
+    
+
+            var marker_8b4f1b052d3a4837b8453658591101de = L.marker(
+                [-12.137516999999999,-76.983698],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_ebfae04044484978ae30a76b3ac08294);
+            
+    
+
+                var icon_d3eb78f4edd442548e76d66e7b77c5ec = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8b4f1b052d3a4837b8453658591101de.setIcon(icon_d3eb78f4edd442548e76d66e7b77c5ec);
+            
+    
+            var popup_c7b0bcf8efe049309ab4eb322fd476e0 = L.popup({maxWidth: '300'});
+
+            
+                var html_c15cc9374f6c4865ba7d35ea509f056a = $('<div id="html_c15cc9374f6c4865ba7d35ea509f056a" style="width: 100.0%; height: 100.0%;">Clinica Caminos Del Inca</div>')[0];
+                popup_c7b0bcf8efe049309ab4eb322fd476e0.setContent(html_c15cc9374f6c4865ba7d35ea509f056a);
+            
+
+            marker_8b4f1b052d3a4837b8453658591101de.bindPopup(popup_c7b0bcf8efe049309ab4eb322fd476e0);
+
+            
+        
+    
+            var feature_group_514a32f064724f8a88d14f06dfdffe33 = L.featureGroup(
+                ).addTo(map_643ae829da354dd6b6f35a1426221d10);
+        
+    
+
+            var marker_a33f0da68fa245f88c9e44cd54d98241 = L.marker(
+                [-12.12537,-77.03453499999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_514a32f064724f8a88d14f06dfdffe33);
+            
+    
+
+                var icon_ab0208bbff1d48488aafcd2637efd539 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a33f0da68fa245f88c9e44cd54d98241.setIcon(icon_ab0208bbff1d48488aafcd2637efd539);
+            
+    
+            var popup_953492ed3fec49bca65ab8d0ebe11df2 = L.popup({maxWidth: '300'});
+
+            
+                var html_fe85fa118d5245f78c4655faa749b619 = $('<div id="html_fe85fa118d5245f78c4655faa749b619" style="width: 100.0%; height: 100.0%;">Clinica Good Hope</div>')[0];
+                popup_953492ed3fec49bca65ab8d0ebe11df2.setContent(html_fe85fa118d5245f78c4655faa749b619);
+            
+
+            marker_a33f0da68fa245f88c9e44cd54d98241.bindPopup(popup_953492ed3fec49bca65ab8d0ebe11df2);
+
+            
+        
+    
+            var feature_group_10a5d83af7b547ac9cfdeabe3799fab9 = L.featureGroup(
+                ).addTo(map_643ae829da354dd6b6f35a1426221d10);
+        
+    
+
+            var marker_ed89df3d473648958ed6c6076b66b928 = L.marker(
+                [-12.091417999999999,-77.027873],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_10a5d83af7b547ac9cfdeabe3799fab9);
+            
+    
+
+                var icon_0562b9601a744c7f932391854e5aa343 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ed89df3d473648958ed6c6076b66b928.setIcon(icon_0562b9601a744c7f932391854e5aa343);
+            
+    
+            var popup_dd5292aa64fe46cf8eba7de363678ea7 = L.popup({maxWidth: '300'});
+
+            
+                var html_b099c400896f47329bc1da3a070f353f = $('<div id="html_b099c400896f47329bc1da3a070f353f" style="width: 100.0%; height: 100.0%;">Clínica Javier Prado</div>')[0];
+                popup_dd5292aa64fe46cf8eba7de363678ea7.setContent(html_b099c400896f47329bc1da3a070f353f);
+            
+
+            marker_ed89df3d473648958ed6c6076b66b928.bindPopup(popup_dd5292aa64fe46cf8eba7de363678ea7);
+
+            
+        
+    
+            var feature_group_b42608b7578b4258b79c153c01870fd4 = L.featureGroup(
+                ).addTo(map_643ae829da354dd6b6f35a1426221d10);
+        
+    
+
+            var marker_222819c7075e412fb07652e9747a0baf = L.marker(
+                [-12.105063000000001,-77.032444],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_b42608b7578b4258b79c153c01870fd4);
+            
+    
+
+                var icon_2b20296bfb534459ad81650d964bee32 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_222819c7075e412fb07652e9747a0baf.setIcon(icon_2b20296bfb534459ad81650d964bee32);
+            
+    
+            var popup_15d7b8b6201a4c1a8bef479215234006 = L.popup({maxWidth: '300'});
+
+            
+                var html_83bf2af5d1da420ebcebef1e3993e0b3 = $('<div id="html_83bf2af5d1da420ebcebef1e3993e0b3" style="width: 100.0%; height: 100.0%;">Clínica los Andes</div>')[0];
+                popup_15d7b8b6201a4c1a8bef479215234006.setContent(html_83bf2af5d1da420ebcebef1e3993e0b3);
+            
+
+            marker_222819c7075e412fb07652e9747a0baf.bindPopup(popup_15d7b8b6201a4c1a8bef479215234006);
+
+            
+        
+    
+            var feature_group_f0665a1dff1d4a6bbc7d5e5f19fb80c4 = L.featureGroup(
+                ).addTo(map_643ae829da354dd6b6f35a1426221d10);
+        
+    
+
+            var marker_3531a84543e64f3d9794e876c763d140 = L.marker(
+                [-12.113251,-77.033079],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_f0665a1dff1d4a6bbc7d5e5f19fb80c4);
+            
+    
+
+                var icon_7bb3fa7eac7f4650a68eb737e467c455 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3531a84543e64f3d9794e876c763d140.setIcon(icon_7bb3fa7eac7f4650a68eb737e467c455);
+            
+    
+            var popup_7d01b2acda9241759694d489790b1b65 = L.popup({maxWidth: '300'});
+
+            
+                var html_b0612790fc8d42819b64812ff4ae66e0 = $('<div id="html_b0612790fc8d42819b64812ff4ae66e0" style="width: 100.0%; height: 100.0%;">Clínica Delgado</div>')[0];
+                popup_7d01b2acda9241759694d489790b1b65.setContent(html_b0612790fc8d42819b64812ff4ae66e0);
+            
+
+            marker_3531a84543e64f3d9794e876c763d140.bindPopup(popup_7d01b2acda9241759694d489790b1b65);
+
+            
+        
+    
+            var feature_group_3448361e00ea4b219bd1117fbeeb1a8f = L.featureGroup(
+                ).addTo(map_643ae829da354dd6b6f35a1426221d10);
+        
+    
+
+            var marker_40709d4e394248389d79d56a485f9456 = L.marker(
+                [-12.109684,-77.025998],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_3448361e00ea4b219bd1117fbeeb1a8f);
+            
+    
+
+                var icon_9eb0d00dfdf348acad9b1ed6e2f3c61d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_40709d4e394248389d79d56a485f9456.setIcon(icon_9eb0d00dfdf348acad9b1ed6e2f3c61d);
+            
+    
+            var popup_795453961c3e471ca8e49607317ac30e = L.popup({maxWidth: '300'});
+
+            
+                var html_518c13729e68437787f658e110541a65 = $('<div id="html_518c13729e68437787f658e110541a65" style="width: 100.0%; height: 100.0%;">Policlínico EsSalud Suárez</div>')[0];
+                popup_795453961c3e471ca8e49607317ac30e.setContent(html_518c13729e68437787f658e110541a65);
+            
+
+            marker_40709d4e394248389d79d56a485f9456.bindPopup(popup_795453961c3e471ca8e49607317ac30e);
+
+            
+        
+    
+            var feature_group_ebc2fcac7c7c443fb07ad1074b824fba = L.featureGroup(
+                ).addTo(map_643ae829da354dd6b6f35a1426221d10);
+        
+    
+
+            var marker_1e0382f0ce664a04ade385b52f1598f9 = L.marker(
+                [-12.103525999999999,-77.01902199999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_ebc2fcac7c7c443fb07ad1074b824fba);
+            
+    
+
+                var icon_9cc11061cdfe43cc8d33370c13931042 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1e0382f0ce664a04ade385b52f1598f9.setIcon(icon_9cc11061cdfe43cc8d33370c13931042);
+            
+    
+            var popup_2c5c4546fdec4bd39f39627983c0a75d = L.popup({maxWidth: '300'});
+
+            
+                var html_13610a27dcc04f9bb1e0fc787cac5afd = $('<div id="html_13610a27dcc04f9bb1e0fc787cac5afd" style="width: 100.0%; height: 100.0%;">Centro de Atención Primaria Surquillo</div>')[0];
+                popup_2c5c4546fdec4bd39f39627983c0a75d.setContent(html_13610a27dcc04f9bb1e0fc787cac5afd);
+            
+
+            marker_1e0382f0ce664a04ade385b52f1598f9.bindPopup(popup_2c5c4546fdec4bd39f39627983c0a75d);
+
+            
+        
+    
+            var feature_group_8ca8376d1cc64619b2162c8d7ceaa768 = L.featureGroup(
+                ).addTo(map_643ae829da354dd6b6f35a1426221d10);
+        
+    
+
+            var marker_f7ceebc547ef42abab7b230a3a06aba0 = L.marker(
+                [-12.113346,-77.022359],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_8ca8376d1cc64619b2162c8d7ceaa768);
+            
+    
+
+                var icon_97e98a9bb9a64a80aff6816bded3a45e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f7ceebc547ef42abab7b230a3a06aba0.setIcon(icon_97e98a9bb9a64a80aff6816bded3a45e);
+            
+    
+            var popup_1c4d254d3cde403aa5a2f05a5297f952 = L.popup({maxWidth: '300'});
+
+            
+                var html_06feee8dc37c4994be28a2087e4092d5 = $('<div id="html_06feee8dc37c4994be28a2087e4092d5" style="width: 100.0%; height: 100.0%;">Hospital SISOL - Angamos</div>')[0];
+                popup_1c4d254d3cde403aa5a2f05a5297f952.setContent(html_06feee8dc37c4994be28a2087e4092d5);
+            
+
+            marker_f7ceebc547ef42abab7b230a3a06aba0.bindPopup(popup_1c4d254d3cde403aa5a2f05a5297f952);
+
+            
+        
+</script>

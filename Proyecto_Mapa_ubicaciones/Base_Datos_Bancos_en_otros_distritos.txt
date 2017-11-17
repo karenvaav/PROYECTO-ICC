@@ -1,0 +1,9 @@
+Lat,Lon,Banco
+-12.143040, -77.015890, Banco de Credito BCP
+-12.143543, -77.015461, Banco Continental BBVA
+-12.143329, -77.015948, BCP Agencia Tejada - Plaza Butters
+-12.151443, -77.020211, Banco de la Nacion
+-12.157632, -77.022400, Interbank
+-12.157967, -77.023065, Multired
+-12.142507, -77.019095, Agente BBVA Continental - Libreria
+-12.143325, -77.018344, Agente BBVA Continental - Lucirena SAC

@@ -1,0 +1,8 @@
+Lat,Lon,Banco
+-12.138765, -77.017899, Cajero BBVA Continental
+-12.141870, -77.027083, BCP
+-12.151352, -77.020259, Banco de la Nacion
+-12.147324, -77.021504, BBVA Banco Continental of Barranco
+-12.142906, -77.021627, Cajero BBVA Continental 
+-12.143396, -77.018301, Agente BBVA Coninental 
+

@@ -1,0 +1,6 @@
+Lat,Lon,Banco
+-12.133772, -77.018285, Interbank
+-12.148792, -77.021160, Interbank
+-12.145562, -77.021761, Banco Azteca
+-12.147151, -77.021512, Scotiabank
+-12.145989, -77.024030, Crac del Centro

@@ -1,0 +1,8 @@
+Lat,Lon,Hotel
+-12.140176, -77.023432, Luxury Barranco 
+-12.139393, -77.023712, Urbano Apartments Barranco Boem 
+-12.135208, -77.020300, Hotel Park Suites 
+-12.139792, -77.021126, Casa Nuestra B&B
+-12.143059, -77.023446, Hotel B
+-12.143164, -77.023843, Casa Republica Barranco Boutique Hotel
+-12.144349, -77.021815, Casa Falleri Boutique Hotel

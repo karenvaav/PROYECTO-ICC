@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_2c321f1d7f9941d5944e11f00d5d5116 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_2c321f1d7f9941d5944e11f00d5d5116" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_2c321f1d7f9941d5944e11f00d5d5116 = L.map(
+                                  'map_2c321f1d7f9941d5944e11f00d5d5116',
+                                  {center: [-12.143927,-77.019295],
+                                  zoom: 10,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_3d568d04cf00444d88d1aa22acfd1ba4 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_2c321f1d7f9941d5944e11f00d5d5116);
+        
+    
+            var feature_group_429b4d686d8743af9ad1554155671130 = L.featureGroup(
+                ).addTo(map_2c321f1d7f9941d5944e11f00d5d5116);
+        
+    
+
+            var marker_b7417ee1eb3b463e9f015424e8e5f1e7 = L.marker(
+                [-12.152579,-77.01993900000001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_429b4d686d8743af9ad1554155671130);
+            
+    
+
+                var icon_22ba692156914ec5a0e490119c7bdb25 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b7417ee1eb3b463e9f015424e8e5f1e7.setIcon(icon_22ba692156914ec5a0e490119c7bdb25);
+            
+    
+            var popup_0c0ec9f888c9433ba522c4079b756b2c = L.popup({maxWidth: '300'});
+
+            
+                var html_e2c2116d22d24a70a52217dced21f1f1 = $('<div id="html_e2c2116d22d24a70a52217dced21f1f1" style="width: 100.0%; height: 100.0%;"> Grifo Petro</div>')[0];
+                popup_0c0ec9f888c9433ba522c4079b756b2c.setContent(html_e2c2116d22d24a70a52217dced21f1f1);
+            
+
+            marker_b7417ee1eb3b463e9f015424e8e5f1e7.bindPopup(popup_0c0ec9f888c9433ba522c4079b756b2c);
+
+            
+        
+    
+            var feature_group_06e6989596674da982fc4697da06715b = L.featureGroup(
+                ).addTo(map_2c321f1d7f9941d5944e11f00d5d5116);
+        
+    
+
+            var marker_00ea86377cb9477f834c067f6443922e = L.marker(
+                [-12.152474,-77.02013199999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_06e6989596674da982fc4697da06715b);
+            
+    
+
+                var icon_0323f67c025449d8a22a72bba65f537e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_00ea86377cb9477f834c067f6443922e.setIcon(icon_0323f67c025449d8a22a72bba65f537e);
+            
+    
+            var popup_4eda9b0a9d064106bc4191087ce48547 = L.popup({maxWidth: '300'});
+
+            
+                var html_c532b6eb5f2544dcab4f13da84f6bf4b = $('<div id="html_c532b6eb5f2544dcab4f13da84f6bf4b" style="width: 100.0%; height: 100.0%;"> Batta Isola</div>')[0];
+                popup_4eda9b0a9d064106bc4191087ce48547.setContent(html_c532b6eb5f2544dcab4f13da84f6bf4b);
+            
+
+            marker_00ea86377cb9477f834c067f6443922e.bindPopup(popup_4eda9b0a9d064106bc4191087ce48547);
+
+            
+        
+    
+            var feature_group_473d36dfaebb45958e376d62cd40302b = L.featureGroup(
+                ).addTo(map_2c321f1d7f9941d5944e11f00d5d5116);
+        
+    
+
+            var marker_4ac2347f65f64df08ce55059513b359e = L.marker(
+                [-12.151656,-77.020454],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_473d36dfaebb45958e376d62cd40302b);
+            
+    
+
+                var icon_132b1e8d8d62487cb1c1468be510be0c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4ac2347f65f64df08ce55059513b359e.setIcon(icon_132b1e8d8d62487cb1c1468be510be0c);
+            
+    
+            var popup_08615b87b8f34235a1ac7aa012339735 = L.popup({maxWidth: '300'});
+
+            
+                var html_9430c4374dd145b29b133b4cc25edfb2 = $('<div id="html_9430c4374dd145b29b133b4cc25edfb2" style="width: 100.0%; height: 100.0%;"> Tecnico de bicicleta</div>')[0];
+                popup_08615b87b8f34235a1ac7aa012339735.setContent(html_9430c4374dd145b29b133b4cc25edfb2);
+            
+
+            marker_4ac2347f65f64df08ce55059513b359e.bindPopup(popup_08615b87b8f34235a1ac7aa012339735);
+
+            
+        
+    
+            var feature_group_10c47d523ad74577bf020e6c01badd7d = L.featureGroup(
+                ).addTo(map_2c321f1d7f9941d5944e11f00d5d5116);
+        
+    
+
+            var marker_680f99f9fee648bd8f6ca212e8a60a40 = L.marker(
+                [-12.139664,-77.02224],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_10c47d523ad74577bf020e6c01badd7d);
+            
+    
+
+                var icon_41a4ac3b895e475f80e4274d7ea284f7 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_680f99f9fee648bd8f6ca212e8a60a40.setIcon(icon_41a4ac3b895e475f80e4274d7ea284f7);
+            
+    
+            var popup_9c1fde4371c94f8793af0d03f33cb2a3 = L.popup({maxWidth: '300'});
+
+            
+                var html_d6f8bd1b04174c5e935975870dd3fd3f = $('<div id="html_d6f8bd1b04174c5e935975870dd3fd3f" style="width: 100.0%; height: 100.0%;"> Estacion de Servicio Repsol YPF</div>')[0];
+                popup_9c1fde4371c94f8793af0d03f33cb2a3.setContent(html_d6f8bd1b04174c5e935975870dd3fd3f);
+            
+
+            marker_680f99f9fee648bd8f6ca212e8a60a40.bindPopup(popup_9c1fde4371c94f8793af0d03f33cb2a3);
+
+            
+        
+    
+            var feature_group_7555f7cb468145b59ba28669c7b14e63 = L.featureGroup(
+                ).addTo(map_2c321f1d7f9941d5944e11f00d5d5116);
+        
+    
+
+            var marker_75d0020f6f3746a189f9d40b88f16aa9 = L.marker(
+                [-12.138956,-77.01795899999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_7555f7cb468145b59ba28669c7b14e63);
+            
+    
+
+                var icon_c2a2ccbb79714649a8e1eaab385fcbdb = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_75d0020f6f3746a189f9d40b88f16aa9.setIcon(icon_c2a2ccbb79714649a8e1eaab385fcbdb);
+            
+    
+            var popup_9edf6dd0c98c4900b3c6fdcbe084d7a6 = L.popup({maxWidth: '300'});
+
+            
+                var html_9186ebc3860e4ec3a6431035110468f2 = $('<div id="html_9186ebc3860e4ec3a6431035110468f2" style="width: 100.0%; height: 100.0%;"> Palomio Carwash Dawnunder</div>')[0];
+                popup_9edf6dd0c98c4900b3c6fdcbe084d7a6.setContent(html_9186ebc3860e4ec3a6431035110468f2);
+            
+
+            marker_75d0020f6f3746a189f9d40b88f16aa9.bindPopup(popup_9edf6dd0c98c4900b3c6fdcbe084d7a6);
+
+            
+        
+    
+            var feature_group_118b4ecde5ba41cfb22fb54f6dc8236c = L.featureGroup(
+                ).addTo(map_2c321f1d7f9941d5944e11f00d5d5116);
+        
+    
+
+            var marker_b4a59348f06d4b18b942f870258ce3b4 = L.marker(
+                [-12.138886999999999,-77.018098],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_118b4ecde5ba41cfb22fb54f6dc8236c);
+            
+    
+
+                var icon_7155aee6ff95414b95bfe64556ae5ff2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b4a59348f06d4b18b942f870258ce3b4.setIcon(icon_7155aee6ff95414b95bfe64556ae5ff2);
+            
+    
+            var popup_273aa5a2741642e481b7e6c6e9034d2b = L.popup({maxWidth: '300'});
+
+            
+                var html_313b12e5f7444098bc890202a8011747 = $('<div id="html_313b12e5f7444098bc890202a8011747" style="width: 100.0%; height: 100.0%;"> Sol 1 Repsol</div>')[0];
+                popup_273aa5a2741642e481b7e6c6e9034d2b.setContent(html_313b12e5f7444098bc890202a8011747);
+            
+
+            marker_b4a59348f06d4b18b942f870258ce3b4.bindPopup(popup_273aa5a2741642e481b7e6c6e9034d2b);
+
+            
+        
+    
+            var feature_group_8f0efb69f4544a82b28e2698967d4af0 = L.featureGroup(
+                ).addTo(map_2c321f1d7f9941d5944e11f00d5d5116);
+        
+    
+
+            var marker_1fd97933a6444eabb0a791ba6a7d935b = L.marker(
+                [-12.138421000000001,-77.018055],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_8f0efb69f4544a82b28e2698967d4af0);
+            
+    
+
+                var icon_771e29cf4f0d43238cf4565d90e7e38a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1fd97933a6444eabb0a791ba6a7d935b.setIcon(icon_771e29cf4f0d43238cf4565d90e7e38a);
+            
+    
+            var popup_32ddd0dbd90f4ceaa9005f0118b62d3c = L.popup({maxWidth: '300'});
+
+            
+                var html_f011640a58084821ab3830475ccaf577 = $('<div id="html_f011640a58084821ab3830475ccaf577" style="width: 100.0%; height: 100.0%;"> TS Performace</div>')[0];
+                popup_32ddd0dbd90f4ceaa9005f0118b62d3c.setContent(html_f011640a58084821ab3830475ccaf577);
+            
+
+            marker_1fd97933a6444eabb0a791ba6a7d935b.bindPopup(popup_32ddd0dbd90f4ceaa9005f0118b62d3c);
+
+            
+        
+    
+            var feature_group_1e4a456b84774c86b5f0ab97556a0135 = L.featureGroup(
+                ).addTo(map_2c321f1d7f9941d5944e11f00d5d5116);
+        
+    
+
+            var marker_6c3f2b28f42a4a68859c55c5e83a4c46 = L.marker(
+                [-12.139627,-77.02219699999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_1e4a456b84774c86b5f0ab97556a0135);
+            
+    
+
+                var icon_b45f7167bbf3471a9c2582118d6df68f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6c3f2b28f42a4a68859c55c5e83a4c46.setIcon(icon_b45f7167bbf3471a9c2582118d6df68f);
+            
+    
+            var popup_4b45da71a8f249ac8629e17f9dcb34c8 = L.popup({maxWidth: '300'});
+
+            
+                var html_542abd0cdd67478c8cef5ab6cbc1cc26 = $('<div id="html_542abd0cdd67478c8cef5ab6cbc1cc26" style="width: 100.0%; height: 100.0%;"> Estacion de Servicio Repsol YPF</div>')[0];
+                popup_4b45da71a8f249ac8629e17f9dcb34c8.setContent(html_542abd0cdd67478c8cef5ab6cbc1cc26);
+            
+
+            marker_6c3f2b28f42a4a68859c55c5e83a4c46.bindPopup(popup_4b45da71a8f249ac8629e17f9dcb34c8);
+
+            
+        
+</script>

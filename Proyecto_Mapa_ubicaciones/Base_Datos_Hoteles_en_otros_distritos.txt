@@ -1,0 +1,16 @@
+Lat,Lon,Hotel
+-12.135193, -77.027516, Belmond Miraflores Park
+-12.133801, -77.026884, Lima Wasi Hotel 
+-12.134190, -77.023237, Hostal Killari Hotel 
+-12.132063, -77.022256, Miraflores Boutique Hotel
+-12.131598, -77.022899, IFE Boutique Hotel
+-12.132572, -77.027344, Central de Reservas Hotel las Dunas
+-12.131328, -77.028172, Atelier Hotel Boutique
+-12.130879, -77.026333, Hotel El Tambo I
+-12.130996, -77.019695, Mansion San Antonio
+-12.130996, -77.019695, Lima Backpackers
+-12.141678, -77.016756, Hospedaje Corpancho
+-12.157469, -77.023404, Casita Libertad Homestay II
+-12.155836, -77.015633, Hostal Jovita 
+-12.152756, -77.021836, El Pasadizo
+-12.152819, -77.020892, Alberge Kaypacha Wasi 

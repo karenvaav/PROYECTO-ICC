@@ -1,0 +1,8 @@
+﻿Lat,Lon,Hospital
+-12.146191, -77.015261,Hospital Municipal de Barranco
+-12.147300, -77.018940,UBAP Barranco “Carlos Mayorga Figueroa”
+-12.143162, -77.016492,Policlinico Parroquial San José OBRERO
+-12.153561, -77.020760,Centro de Reabilitacion
+-12.144593, -77.022660,Direccion De Salud Metropolitana
+-12.144698, -77.021266,DIRECCIÓN DE SALUD II LIMA SUR
+-12.143502, -77.023175,Disa II Lima Sur

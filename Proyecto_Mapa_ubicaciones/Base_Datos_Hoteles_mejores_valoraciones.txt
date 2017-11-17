@@ -1,0 +1,16 @@
+Lat,Lon,Hotel
+-12.140176, -77.023432, Luxury Barranco 4.5*
+-12.136037, -77.022102, Family Hostel Barranco 4*
+-12.135208, -77.020300, Hotel Park Suites 4.3*
+-12.135890, -77.021555, Casa Fanning Apart Hotel 4.5*
+-12.139792, -77.021126, Casa Nuestra B&B 4.9*
+-12.139393, -77.023712, Urbano Apartments Barranco Boem 4.6*
+-12.138676, -77.020010, Kusi Campers Casa Barranco 4.3*
+-12.142850, -77.020248, Hotel Boutique 4*
+-12.142252, -77.023821, La puerta verde 4.1*
+-12.143059, -77.023446, Hotel B 4.7*
+-12.144580, -77.023864, Villa Barranco by Aranay Hotels 4.9*
+-12.143384, -77.022341, Casa de Leeuw 4.5*
+-12.143710, -77.022051, Lima Wari Hotel Boutique 4.1*
+-12.143846, -77.022051, One Hostel 4.7*
+-12.144349, -77.021815, Casa Falleri Boutique Hotel 4.4*

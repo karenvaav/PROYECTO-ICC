@@ -1,0 +1,22 @@
+Lat,Lon,Hotel
+-12.134911, -77.020075, Daniel Lima
+-12.135890, -77.021555, Casa Fanning Apart Hotel
+-12.136037, -77.022102, Family Hostel Barranco
+-12.139430, -77.023833, La Petite Boheme
+-12.135748, -77.022263, Habitac. Barranco
+-12.136232, -77.020214, LaMoni
+-12.141362, -77.020206, Cozy Wasi
+-12.137380, -77.024604, Barranco Bohemio
+-12.140161, -77.024557, Emilia 
+-12.139814, -77.020149, Ely homestay 
+-12.138676, -77.020010, Kusi Campers Casa Barranco
+-12.137620, -77.021429, Barranco Lodge
+-12.137725, -77.018238, Montreal Hostal
+-12.141423, -77.022073, La Casa Barranco Hostel
+-12.142252, -77.023821, La puerta verde
+-12.144580, -77.023864, Villa Barranco by Aranay Hotels 
+-12.143384, -77.022341, Casa de Leeuw 
+-12.143710, -77.022051, Lima Wari Hotel Boutique
+-12.143846, -77.022051, One Hostel
+-12.145199, -77.021729, Hostal Gemina
+-12.143636, -77.018596, Urban House

@@ -1,0 +1,20 @@
+Lat,Lon,Gasolineria
+-12.152474, -77.019682, APURIMAC-AYMARAES
+-12.142747, -77.018055, JANEDUS-TRADING-Primax
+-12.146859, -77.011661, Pecsa-Jorge Chavez
+-12.139223, -77.017927, Balanceo Enllante
+-12.139202, -77.017648, Grifo Repsol
+-12.135024, -77.025219, Grifo Primax Armendariz
+-12.135024, -77.025219, Repsol
+-12.135024, -77.025219, Energigas Barranco
+-12.135167, -77.007144, Primax Coesti
+-12.127635, -77.010448, Primax Alegria
+-12.126167, -77.018280, Primax Benavides
+-12.126062, -77.018559, Estacion Benavides
+-12.125789, -77.018409, Primax Benavides
+-12.126314, -77.028430, Petroamerica
+-12.123629, -77.025018, Estacion de Servicio PECSA - Miraflores
+-12.120146, -77.023366, Estacion de servicio PECSA - Ricardo Palma
+-12.120419, -77.018366, Repsol Miraflores
+-12.122601, -77.011028, Pecsa Estacion de Servicios Aurora
+-12.129566, -77.023559, Repsol Estacion Reducto

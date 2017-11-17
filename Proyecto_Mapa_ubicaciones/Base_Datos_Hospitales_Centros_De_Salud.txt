@@ -1,0 +1,2 @@
+﻿Lat,Lon,Hospital
+-12.150592, -77.020397,Centro de Salud Gaudencio Bernasconi

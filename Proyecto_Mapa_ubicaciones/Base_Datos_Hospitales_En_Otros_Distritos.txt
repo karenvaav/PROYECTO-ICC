@@ -1,0 +1,30 @@
+﻿Lat,Lon,Hospital
+-12.133554, -77.013509,Centro Medico Rosedal
+-12.144674, -77.005710,Hospital Municipal Surco Salud
+-12.167456, -77.016753,Hospital De La Solidaridad
+-12.166009, -77.020073,Centro Materno Infantil de Salud Chorrillos II
+-12.167597, -77.022924,Asistencia Pública de Chorrillos
+-12.172888, -77.024872,Clinica Parroquial San Francisco de Asis
+-12.174723, -77.020397,Clínica Real Los Laureles
+-12.183048, -77.015959,Instituto Nacional de Salud
+-12.172677, -77.012169,Centro Médico Clínica Ricardo Palma
+-12.169005, -77.023237,C.S. Gustavo Lanatta Lujan
+-12.176823, -77.000125,Policlínico ESSALUD Juan José Rodríguez Lazo
+-12.161937, -77.015855,Clinica Geriatrica Del Ejercito
+-12.147268, -77.005193,Centro de Salud del MINSA - Surco
+-12.151654, -77.001392,Hospital FAP Las Palmas
+-12.149592, -76.989103,Policlínico EsSalud Los Próceres
+-12.174620, -76.962817,Policlinico Sagrada Familia
+-12.153523, -76.972622,Centro de Salud Leonor Saavedra
+-12.152326, -76.967927,Centro Materno Infantil Manuel Barreto
+-12.168191, -76.963130,Clinica Santa Maria Del Sur
+-12.160612, -76.973618,Red De Salud Solidario
+-12.129734, -76.979003,Clínica Maison de Santé del Este
+-12.137517, -76.983698,Clinica Caminos Del Inca
+-12.125370, -77.034535,Clinica Good Hope
+-12.091418, -77.027873,Clínica Javier Prado
+-12.105063, -77.032444,Clínica los Andes
+-12.113251, -77.033079,Clínica Delgado
+-12.109684, -77.025998,Policlínico EsSalud Suárez
+-12.103526, -77.019022,Centro de Atención Primaria Surquillo
+-12.113346, -77.022359,Hospital SISOL - Angamos

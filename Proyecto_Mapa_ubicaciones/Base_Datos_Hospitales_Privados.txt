@@ -1,0 +1,4 @@
+﻿Lat,Lon,Hospital
+-12.147486, -77.018908,Policlinico Barranco
+-12.152515, -77.022384,Sociedad Italiana de Beneficencia y Asistencia
+-12.134964, -77.019678,Infinity - Clinica Dental Especializada

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_92f78c1f27704425a702566aadf66200 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_92f78c1f27704425a702566aadf66200" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_92f78c1f27704425a702566aadf66200 = L.map(
+                                  'map_92f78c1f27704425a702566aadf66200',
+                                  {center: [-12.143927,-77.019295],
+                                  zoom: 10,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_100bcea9a834452f9cbf29035e0713d8 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_92f78c1f27704425a702566aadf66200);
+        
+    
+            var feature_group_a3a0511dda974e29932afff2822a1f02 = L.featureGroup(
+                ).addTo(map_92f78c1f27704425a702566aadf66200);
+        
+    
+
+            var marker_3b42c7b11ac4422eb007f24101e48978 = L.marker(
+                [-12.146191,-77.015261],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_a3a0511dda974e29932afff2822a1f02);
+            
+    
+
+                var icon_2fe2552740f4409e91b9feec0c370720 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3b42c7b11ac4422eb007f24101e48978.setIcon(icon_2fe2552740f4409e91b9feec0c370720);
+            
+    
+            var popup_e3631e2bd99b4cb2a0ab41451d8b9e75 = L.popup({maxWidth: '300'});
+
+            
+                var html_836f93564dfe48318536241b059fb178 = $('<div id="html_836f93564dfe48318536241b059fb178" style="width: 100.0%; height: 100.0%;">Hospital Municipal de Barranco</div>')[0];
+                popup_e3631e2bd99b4cb2a0ab41451d8b9e75.setContent(html_836f93564dfe48318536241b059fb178);
+            
+
+            marker_3b42c7b11ac4422eb007f24101e48978.bindPopup(popup_e3631e2bd99b4cb2a0ab41451d8b9e75);
+
+            
+        
+    
+            var feature_group_d5c8a69ea6204dceb4e276645b788214 = L.featureGroup(
+                ).addTo(map_92f78c1f27704425a702566aadf66200);
+        
+    
+
+            var marker_4f880d6f40ae406cb53c067a7d52a05a = L.marker(
+                [-12.1473,-77.01894],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_d5c8a69ea6204dceb4e276645b788214);
+            
+    
+
+                var icon_1b262ffd458d4d79982656361c77738b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4f880d6f40ae406cb53c067a7d52a05a.setIcon(icon_1b262ffd458d4d79982656361c77738b);
+            
+    
+            var popup_bcf25b60c7e4407e84f0ca063acaf421 = L.popup({maxWidth: '300'});
+
+            
+                var html_443ad685647246a5aa42059a6863cf03 = $('<div id="html_443ad685647246a5aa42059a6863cf03" style="width: 100.0%; height: 100.0%;">UBAP Barranco “Carlos Mayorga Figueroa”</div>')[0];
+                popup_bcf25b60c7e4407e84f0ca063acaf421.setContent(html_443ad685647246a5aa42059a6863cf03);
+            
+
+            marker_4f880d6f40ae406cb53c067a7d52a05a.bindPopup(popup_bcf25b60c7e4407e84f0ca063acaf421);
+
+            
+        
+    
+            var feature_group_436fea4f2261449599f0772b0285ab8f = L.featureGroup(
+                ).addTo(map_92f78c1f27704425a702566aadf66200);
+        
+    
+
+            var marker_b51d143a59f04f01962100aa5b034b9c = L.marker(
+                [-12.143162,-77.016492],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_436fea4f2261449599f0772b0285ab8f);
+            
+    
+
+                var icon_d174d399a259407f92f32bc56cc03845 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b51d143a59f04f01962100aa5b034b9c.setIcon(icon_d174d399a259407f92f32bc56cc03845);
+            
+    
+            var popup_57e28f10525d40a5b5e7b4517fc872dc = L.popup({maxWidth: '300'});
+
+            
+                var html_fde1a5fe33da4257b21adde5b37ed712 = $('<div id="html_fde1a5fe33da4257b21adde5b37ed712" style="width: 100.0%; height: 100.0%;">Policlinico Parroquial San José OBRERO</div>')[0];
+                popup_57e28f10525d40a5b5e7b4517fc872dc.setContent(html_fde1a5fe33da4257b21adde5b37ed712);
+            
+
+            marker_b51d143a59f04f01962100aa5b034b9c.bindPopup(popup_57e28f10525d40a5b5e7b4517fc872dc);
+
+            
+        
+    
+            var feature_group_6c500f2a74d048d4956273a4685acf86 = L.featureGroup(
+                ).addTo(map_92f78c1f27704425a702566aadf66200);
+        
+    
+
+            var marker_eb044622cb2a4efcb4b8f0e08a9252f8 = L.marker(
+                [-12.153561,-77.02076],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6c500f2a74d048d4956273a4685acf86);
+            
+    
+
+                var icon_b21958ccd0d5407f95596532a9f6395d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_eb044622cb2a4efcb4b8f0e08a9252f8.setIcon(icon_b21958ccd0d5407f95596532a9f6395d);
+            
+    
+            var popup_fb87d1c6ad4e4d4c9db303186158975b = L.popup({maxWidth: '300'});
+
+            
+                var html_ebd6e75ce57d48bab4b80dc8c2500357 = $('<div id="html_ebd6e75ce57d48bab4b80dc8c2500357" style="width: 100.0%; height: 100.0%;">Centro de Reabilitacion</div>')[0];
+                popup_fb87d1c6ad4e4d4c9db303186158975b.setContent(html_ebd6e75ce57d48bab4b80dc8c2500357);
+            
+
+            marker_eb044622cb2a4efcb4b8f0e08a9252f8.bindPopup(popup_fb87d1c6ad4e4d4c9db303186158975b);
+
+            
+        
+    
+            var feature_group_7d90a55c41444afcbbe09fdf9aeef82d = L.featureGroup(
+                ).addTo(map_92f78c1f27704425a702566aadf66200);
+        
+    
+
+            var marker_ff90794765b94287bccbada96fbc5399 = L.marker(
+                [-12.144592999999999,-77.02266],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_7d90a55c41444afcbbe09fdf9aeef82d);
+            
+    
+
+                var icon_544ea5dc87c9493ba3085a976bf2dca6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ff90794765b94287bccbada96fbc5399.setIcon(icon_544ea5dc87c9493ba3085a976bf2dca6);
+            
+    
+            var popup_14c11269ecaa4d7d9edf67d1e87a2136 = L.popup({maxWidth: '300'});
+
+            
+                var html_3df800c5a09f4afd829c48bbe0521a4e = $('<div id="html_3df800c5a09f4afd829c48bbe0521a4e" style="width: 100.0%; height: 100.0%;">Direccion De Salud Metropolitana</div>')[0];
+                popup_14c11269ecaa4d7d9edf67d1e87a2136.setContent(html_3df800c5a09f4afd829c48bbe0521a4e);
+            
+
+            marker_ff90794765b94287bccbada96fbc5399.bindPopup(popup_14c11269ecaa4d7d9edf67d1e87a2136);
+
+            
+        
+    
+            var feature_group_8468803c83ed4231b4c6ad2bc62b974c = L.featureGroup(
+                ).addTo(map_92f78c1f27704425a702566aadf66200);
+        
+    
+
+            var marker_580e32b8bc90449092ebb1145f4f92ad = L.marker(
+                [-12.144698,-77.021266],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_8468803c83ed4231b4c6ad2bc62b974c);
+            
+    
+
+                var icon_b53d14b2f245473d85c1da471bf71e50 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_580e32b8bc90449092ebb1145f4f92ad.setIcon(icon_b53d14b2f245473d85c1da471bf71e50);
+            
+    
+            var popup_c4cebfacf2fe49e9a83edd32a22f9218 = L.popup({maxWidth: '300'});
+
+            
+                var html_4efa3174e3004a2f818acbe29ffc98b3 = $('<div id="html_4efa3174e3004a2f818acbe29ffc98b3" style="width: 100.0%; height: 100.0%;">DIRECCIÓN DE SALUD II LIMA SUR</div>')[0];
+                popup_c4cebfacf2fe49e9a83edd32a22f9218.setContent(html_4efa3174e3004a2f818acbe29ffc98b3);
+            
+
+            marker_580e32b8bc90449092ebb1145f4f92ad.bindPopup(popup_c4cebfacf2fe49e9a83edd32a22f9218);
+
+            
+        
+    
+            var feature_group_954d2725873e49a992fcf50ee4a941c0 = L.featureGroup(
+                ).addTo(map_92f78c1f27704425a702566aadf66200);
+        
+    
+
+            var marker_738b91790878428592bc30cb44da60b5 = L.marker(
+                [-12.143502,-77.023175],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_954d2725873e49a992fcf50ee4a941c0);
+            
+    
+
+                var icon_3e09a4b4f6a941ccae7a19047d1cdcb7 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_738b91790878428592bc30cb44da60b5.setIcon(icon_3e09a4b4f6a941ccae7a19047d1cdcb7);
+            
+    
+            var popup_0ec41e1800c74b3c8c37bdeac6f7f375 = L.popup({maxWidth: '300'});
+
+            
+                var html_f199758585b24269986feb5dffec894b = $('<div id="html_f199758585b24269986feb5dffec894b" style="width: 100.0%; height: 100.0%;">Disa II Lima Sur</div>')[0];
+                popup_0ec41e1800c74b3c8c37bdeac6f7f375.setContent(html_f199758585b24269986feb5dffec894b);
+            
+
+            marker_738b91790878428592bc30cb44da60b5.bindPopup(popup_0ec41e1800c74b3c8c37bdeac6f7f375);
+
+            
+        
+</script>

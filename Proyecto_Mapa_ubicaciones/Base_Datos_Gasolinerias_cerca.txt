@@ -1,0 +1,10 @@
+Lat,Lon,Gasolineria
+-12.152579, -77.019939, Grifo Petro
+-12.152474, -77.020132, Batta Isola
+-12.151656, -77.020454, Tecnico de bicicleta
+-12.139664, -77.022240, Estacion de Servicio Repsol YPF
+-12.138956, -77.017959, Palomio Carwash Dawnunder
+-12.138887, -77.018098, Sol 1 Repsol
+-12.138421, -77.018055, TS Performace
+-12.139627, -77.022197, Estacion de Servicio Repsol YPF
+

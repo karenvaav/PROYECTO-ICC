@@ -1,0 +1,1137 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_1efba1c050b740c8ba09f346417b06f2 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_1efba1c050b740c8ba09f346417b06f2" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_1efba1c050b740c8ba09f346417b06f2 = L.map(
+                                  'map_1efba1c050b740c8ba09f346417b06f2',
+                                  {center: [-12.143927,-77.019295],
+                                  zoom: 10,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_47380661747543ca9606477c1f8be97c = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_1efba1c050b740c8ba09f346417b06f2);
+        
+    
+            var feature_group_ddaaf50a77ec463faf18477c117e26c7 = L.featureGroup(
+                ).addTo(map_1efba1c050b740c8ba09f346417b06f2);
+        
+    
+
+            var marker_7f398cd4d19e4d60b40fee8cade41b77 = L.marker(
+                [-12.136037,-77.022102],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_ddaaf50a77ec463faf18477c117e26c7);
+            
+    
+
+                var icon_233958d835624ec18764f50214bede8c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7f398cd4d19e4d60b40fee8cade41b77.setIcon(icon_233958d835624ec18764f50214bede8c);
+            
+    
+            var popup_bd2d5b0080f6494ebaa6b25b810d294b = L.popup({maxWidth: '300'});
+
+            
+                var html_5f925b094cbb41b6bc241d8e65e6f89e = $('<div id="html_5f925b094cbb41b6bc241d8e65e6f89e" style="width: 100.0%; height: 100.0%;"> Family Hostel Barranco</div>')[0];
+                popup_bd2d5b0080f6494ebaa6b25b810d294b.setContent(html_5f925b094cbb41b6bc241d8e65e6f89e);
+            
+
+            marker_7f398cd4d19e4d60b40fee8cade41b77.bindPopup(popup_bd2d5b0080f6494ebaa6b25b810d294b);
+
+            
+        
+    
+            var feature_group_069cc166ccca4eddb5cb2355f933df07 = L.featureGroup(
+                ).addTo(map_1efba1c050b740c8ba09f346417b06f2);
+        
+    
+
+            var marker_a50fc31fd5ed47299364273a8782faf1 = L.marker(
+                [-12.135208,-77.0203],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_069cc166ccca4eddb5cb2355f933df07);
+            
+    
+
+                var icon_bfba597d76d8442092e1b26103cdc9b6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a50fc31fd5ed47299364273a8782faf1.setIcon(icon_bfba597d76d8442092e1b26103cdc9b6);
+            
+    
+            var popup_344c9fadd0aa46cfb3c643e70dcea952 = L.popup({maxWidth: '300'});
+
+            
+                var html_5d702be6a045403eb4bd12fbf9184b5a = $('<div id="html_5d702be6a045403eb4bd12fbf9184b5a" style="width: 100.0%; height: 100.0%;"> Hotel Park Suites </div>')[0];
+                popup_344c9fadd0aa46cfb3c643e70dcea952.setContent(html_5d702be6a045403eb4bd12fbf9184b5a);
+            
+
+            marker_a50fc31fd5ed47299364273a8782faf1.bindPopup(popup_344c9fadd0aa46cfb3c643e70dcea952);
+
+            
+        
+    
+            var feature_group_50c6f1c3838b491197c0ff21109375ee = L.featureGroup(
+                ).addTo(map_1efba1c050b740c8ba09f346417b06f2);
+        
+    
+
+            var marker_28a2695e89b14e9980596301a1736832 = L.marker(
+                [-12.139792,-77.021126],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_50c6f1c3838b491197c0ff21109375ee);
+            
+    
+
+                var icon_35256567221e4888987897d848f57537 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_28a2695e89b14e9980596301a1736832.setIcon(icon_35256567221e4888987897d848f57537);
+            
+    
+            var popup_6a9725529e7042aa9d83a57e538fbb99 = L.popup({maxWidth: '300'});
+
+            
+                var html_d60fa33905de43beabf6ee8d162f049a = $('<div id="html_d60fa33905de43beabf6ee8d162f049a" style="width: 100.0%; height: 100.0%;"> Casa Nuestra B&B</div>')[0];
+                popup_6a9725529e7042aa9d83a57e538fbb99.setContent(html_d60fa33905de43beabf6ee8d162f049a);
+            
+
+            marker_28a2695e89b14e9980596301a1736832.bindPopup(popup_6a9725529e7042aa9d83a57e538fbb99);
+
+            
+        
+    
+            var feature_group_55bc3b5456b14b069e536b5f731e38a3 = L.featureGroup(
+                ).addTo(map_1efba1c050b740c8ba09f346417b06f2);
+        
+    
+
+            var marker_0de4fb28b9c34dfe81b9f8d49b1e42ef = L.marker(
+                [-12.139393,-77.023712],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_55bc3b5456b14b069e536b5f731e38a3);
+            
+    
+
+                var icon_79f0cd084339407cbb59ed769aadfd40 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0de4fb28b9c34dfe81b9f8d49b1e42ef.setIcon(icon_79f0cd084339407cbb59ed769aadfd40);
+            
+    
+            var popup_588c2b10cb1745b7b8cf28417eee6e6e = L.popup({maxWidth: '300'});
+
+            
+                var html_118273a63b574c909dd3de95ce3d9e40 = $('<div id="html_118273a63b574c909dd3de95ce3d9e40" style="width: 100.0%; height: 100.0%;"> Urbano Apartments Barranco Boem </div>')[0];
+                popup_588c2b10cb1745b7b8cf28417eee6e6e.setContent(html_118273a63b574c909dd3de95ce3d9e40);
+            
+
+            marker_0de4fb28b9c34dfe81b9f8d49b1e42ef.bindPopup(popup_588c2b10cb1745b7b8cf28417eee6e6e);
+
+            
+        
+    
+            var feature_group_dcbe0e182e814400874d8c9f55aebe98 = L.featureGroup(
+                ).addTo(map_1efba1c050b740c8ba09f346417b06f2);
+        
+    
+
+            var marker_eeb18e41c3304bc18b624efa3616e484 = L.marker(
+                [-12.134911,-77.020075],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_dcbe0e182e814400874d8c9f55aebe98);
+            
+    
+
+                var icon_16a89cfea40b4a98b59d36b762b5e885 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_eeb18e41c3304bc18b624efa3616e484.setIcon(icon_16a89cfea40b4a98b59d36b762b5e885);
+            
+    
+            var popup_fc8cb3b444f74275bc9f16d90a64cfc5 = L.popup({maxWidth: '300'});
+
+            
+                var html_76d41d4dff9d4f4a97be06fde34c244e = $('<div id="html_76d41d4dff9d4f4a97be06fde34c244e" style="width: 100.0%; height: 100.0%;"> Daniel Lima</div>')[0];
+                popup_fc8cb3b444f74275bc9f16d90a64cfc5.setContent(html_76d41d4dff9d4f4a97be06fde34c244e);
+            
+
+            marker_eeb18e41c3304bc18b624efa3616e484.bindPopup(popup_fc8cb3b444f74275bc9f16d90a64cfc5);
+
+            
+        
+    
+            var feature_group_8abfb2ee91474080b909a8146168e253 = L.featureGroup(
+                ).addTo(map_1efba1c050b740c8ba09f346417b06f2);
+        
+    
+
+            var marker_c6ad0def3af040039caf3bd110dd4c0f = L.marker(
+                [-12.13589,-77.021555],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_8abfb2ee91474080b909a8146168e253);
+            
+    
+
+                var icon_9851fecfd3974c0cb5ea6d9ace12a188 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c6ad0def3af040039caf3bd110dd4c0f.setIcon(icon_9851fecfd3974c0cb5ea6d9ace12a188);
+            
+    
+            var popup_2df3e1af0d8e45a49ef27f6086d4546c = L.popup({maxWidth: '300'});
+
+            
+                var html_f8bd412e8fc4426f836fbd0e5178356b = $('<div id="html_f8bd412e8fc4426f836fbd0e5178356b" style="width: 100.0%; height: 100.0%;"> Casa Fanning Apart Hotel</div>')[0];
+                popup_2df3e1af0d8e45a49ef27f6086d4546c.setContent(html_f8bd412e8fc4426f836fbd0e5178356b);
+            
+
+            marker_c6ad0def3af040039caf3bd110dd4c0f.bindPopup(popup_2df3e1af0d8e45a49ef27f6086d4546c);
+
+            
+        
+    
+            var feature_group_fd9523571fcc4079bdb6b0f57bbcb922 = L.featureGroup(
+                ).addTo(map_1efba1c050b740c8ba09f346417b06f2);
+        
+    
+
+            var marker_11e3deda59b04efd83a541da13077c00 = L.marker(
+                [-12.135748,-77.022263],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_fd9523571fcc4079bdb6b0f57bbcb922);
+            
+    
+
+                var icon_2b3c4b49fa12494cbe661ef8cb453602 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_11e3deda59b04efd83a541da13077c00.setIcon(icon_2b3c4b49fa12494cbe661ef8cb453602);
+            
+    
+            var popup_e17ec8af65984ca58047ba378c6df647 = L.popup({maxWidth: '300'});
+
+            
+                var html_c50d71c0a039418c93ad0573390d33c6 = $('<div id="html_c50d71c0a039418c93ad0573390d33c6" style="width: 100.0%; height: 100.0%;"> Habitac. Barranco</div>')[0];
+                popup_e17ec8af65984ca58047ba378c6df647.setContent(html_c50d71c0a039418c93ad0573390d33c6);
+            
+
+            marker_11e3deda59b04efd83a541da13077c00.bindPopup(popup_e17ec8af65984ca58047ba378c6df647);
+
+            
+        
+    
+            var feature_group_3a9081c442554b80b84d0e2d0100232b = L.featureGroup(
+                ).addTo(map_1efba1c050b740c8ba09f346417b06f2);
+        
+    
+
+            var marker_e1edc21c887e44c2bce566642fed64f4 = L.marker(
+                [-12.136232000000001,-77.020214],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_3a9081c442554b80b84d0e2d0100232b);
+            
+    
+
+                var icon_ae48173c8d4f42de9acb1478e7b080f5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e1edc21c887e44c2bce566642fed64f4.setIcon(icon_ae48173c8d4f42de9acb1478e7b080f5);
+            
+    
+            var popup_e92e5e4d4f5749dda2440c23f83aa5a7 = L.popup({maxWidth: '300'});
+
+            
+                var html_07dfb589ef62460b9305ddf74acbfd41 = $('<div id="html_07dfb589ef62460b9305ddf74acbfd41" style="width: 100.0%; height: 100.0%;"> LaMoni</div>')[0];
+                popup_e92e5e4d4f5749dda2440c23f83aa5a7.setContent(html_07dfb589ef62460b9305ddf74acbfd41);
+            
+
+            marker_e1edc21c887e44c2bce566642fed64f4.bindPopup(popup_e92e5e4d4f5749dda2440c23f83aa5a7);
+
+            
+        
+    
+            var feature_group_d98cc7f66a974e25bd6a9fb808284d6b = L.featureGroup(
+                ).addTo(map_1efba1c050b740c8ba09f346417b06f2);
+        
+    
+
+            var marker_34686a0d59d04186abcbf09389c34428 = L.marker(
+                [-12.141361999999999,-77.020206],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_d98cc7f66a974e25bd6a9fb808284d6b);
+            
+    
+
+                var icon_88f71c61d2844d0aac57ce941f73adf3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_34686a0d59d04186abcbf09389c34428.setIcon(icon_88f71c61d2844d0aac57ce941f73adf3);
+            
+    
+            var popup_cd557e0a0c3b4f95b25a38976990d759 = L.popup({maxWidth: '300'});
+
+            
+                var html_fadb29b8e2b849d2913a768cf208571a = $('<div id="html_fadb29b8e2b849d2913a768cf208571a" style="width: 100.0%; height: 100.0%;"> Cozy Wasi</div>')[0];
+                popup_cd557e0a0c3b4f95b25a38976990d759.setContent(html_fadb29b8e2b849d2913a768cf208571a);
+            
+
+            marker_34686a0d59d04186abcbf09389c34428.bindPopup(popup_cd557e0a0c3b4f95b25a38976990d759);
+
+            
+        
+    
+            var feature_group_92bae87cd31145209ac1360b65048c8e = L.featureGroup(
+                ).addTo(map_1efba1c050b740c8ba09f346417b06f2);
+        
+    
+
+            var marker_f4f325ecf87c45df9a12e9099e556e2f = L.marker(
+                [-12.13738,-77.02460400000001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_92bae87cd31145209ac1360b65048c8e);
+            
+    
+
+                var icon_34a77e8e80564d3787310734b490ce1c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f4f325ecf87c45df9a12e9099e556e2f.setIcon(icon_34a77e8e80564d3787310734b490ce1c);
+            
+    
+            var popup_437fca1a6bac40c3839320c61bebc9d4 = L.popup({maxWidth: '300'});
+
+            
+                var html_10d54033805c4c8f8f5097bdad0f9de2 = $('<div id="html_10d54033805c4c8f8f5097bdad0f9de2" style="width: 100.0%; height: 100.0%;"> Barranco Bohemio </div>')[0];
+                popup_437fca1a6bac40c3839320c61bebc9d4.setContent(html_10d54033805c4c8f8f5097bdad0f9de2);
+            
+
+            marker_f4f325ecf87c45df9a12e9099e556e2f.bindPopup(popup_437fca1a6bac40c3839320c61bebc9d4);
+
+            
+        
+    
+            var feature_group_ec8626f77cc54ac2841304567ac949b5 = L.featureGroup(
+                ).addTo(map_1efba1c050b740c8ba09f346417b06f2);
+        
+    
+
+            var marker_2a507a001d894bd69f53b97a79bd39cc = L.marker(
+                [-12.13943,-77.023833],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_ec8626f77cc54ac2841304567ac949b5);
+            
+    
+
+                var icon_6492998acd7e405da8ff689aa7bfb30a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2a507a001d894bd69f53b97a79bd39cc.setIcon(icon_6492998acd7e405da8ff689aa7bfb30a);
+            
+    
+            var popup_ecb55a41d3b7441687dd0c60554a675f = L.popup({maxWidth: '300'});
+
+            
+                var html_502b86b50400474d96b883982fb517a6 = $('<div id="html_502b86b50400474d96b883982fb517a6" style="width: 100.0%; height: 100.0%;"> La Petite Boheme</div>')[0];
+                popup_ecb55a41d3b7441687dd0c60554a675f.setContent(html_502b86b50400474d96b883982fb517a6);
+            
+
+            marker_2a507a001d894bd69f53b97a79bd39cc.bindPopup(popup_ecb55a41d3b7441687dd0c60554a675f);
+
+            
+        
+    
+            var feature_group_18c4fc9d58e541ef9f508d059c6b0016 = L.featureGroup(
+                ).addTo(map_1efba1c050b740c8ba09f346417b06f2);
+        
+    
+
+            var marker_a61889bff19444b89310f220a27ec238 = L.marker(
+                [-12.140176,-77.023432],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_18c4fc9d58e541ef9f508d059c6b0016);
+            
+    
+
+                var icon_c0ec98ceab37452caaa727b7c27f910e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a61889bff19444b89310f220a27ec238.setIcon(icon_c0ec98ceab37452caaa727b7c27f910e);
+            
+    
+            var popup_1e8ffcc83b7441c9bcc90422298f48d4 = L.popup({maxWidth: '300'});
+
+            
+                var html_8f7661a8eb6f4fbf968d7ff441847bb2 = $('<div id="html_8f7661a8eb6f4fbf968d7ff441847bb2" style="width: 100.0%; height: 100.0%;"> Luxury Barranco</div>')[0];
+                popup_1e8ffcc83b7441c9bcc90422298f48d4.setContent(html_8f7661a8eb6f4fbf968d7ff441847bb2);
+            
+
+            marker_a61889bff19444b89310f220a27ec238.bindPopup(popup_1e8ffcc83b7441c9bcc90422298f48d4);
+
+            
+        
+    
+            var feature_group_624b5b44e8f54770a2387477d907a57b = L.featureGroup(
+                ).addTo(map_1efba1c050b740c8ba09f346417b06f2);
+        
+    
+
+            var marker_7eaa9db8bb0b49f99c310e834e531914 = L.marker(
+                [-12.140161,-77.024557],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_624b5b44e8f54770a2387477d907a57b);
+            
+    
+
+                var icon_c8432fc2b5eb4a26b0375ffe5a232979 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7eaa9db8bb0b49f99c310e834e531914.setIcon(icon_c8432fc2b5eb4a26b0375ffe5a232979);
+            
+    
+            var popup_88caefd9cafe4edab1b1702f1b96298b = L.popup({maxWidth: '300'});
+
+            
+                var html_5402282d8d4946549c86be60798d3484 = $('<div id="html_5402282d8d4946549c86be60798d3484" style="width: 100.0%; height: 100.0%;"> Emilia</div>')[0];
+                popup_88caefd9cafe4edab1b1702f1b96298b.setContent(html_5402282d8d4946549c86be60798d3484);
+            
+
+            marker_7eaa9db8bb0b49f99c310e834e531914.bindPopup(popup_88caefd9cafe4edab1b1702f1b96298b);
+
+            
+        
+    
+            var feature_group_ae920b7d71c94aa8af4d9e79aa192a28 = L.featureGroup(
+                ).addTo(map_1efba1c050b740c8ba09f346417b06f2);
+        
+    
+
+            var marker_df6b9124786c4a54b264cc1a3e94cf9f = L.marker(
+                [-12.139814,-77.020149],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_ae920b7d71c94aa8af4d9e79aa192a28);
+            
+    
+
+                var icon_7f3f1073961e4c2585bd6d8a06e20bd0 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_df6b9124786c4a54b264cc1a3e94cf9f.setIcon(icon_7f3f1073961e4c2585bd6d8a06e20bd0);
+            
+    
+            var popup_408c6e3686d7458fa106d97c6cf7245b = L.popup({maxWidth: '300'});
+
+            
+                var html_0650cb05e4484109b3bc1633dd56be94 = $('<div id="html_0650cb05e4484109b3bc1633dd56be94" style="width: 100.0%; height: 100.0%;"> Ely homestay  </div>')[0];
+                popup_408c6e3686d7458fa106d97c6cf7245b.setContent(html_0650cb05e4484109b3bc1633dd56be94);
+            
+
+            marker_df6b9124786c4a54b264cc1a3e94cf9f.bindPopup(popup_408c6e3686d7458fa106d97c6cf7245b);
+
+            
+        
+    
+            var feature_group_7a4de75313804533af3c5d8805bce11b = L.featureGroup(
+                ).addTo(map_1efba1c050b740c8ba09f346417b06f2);
+        
+    
+
+            var marker_4103115589d04965a35d1c6a550aa7bd = L.marker(
+                [-12.138676,-77.02001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_7a4de75313804533af3c5d8805bce11b);
+            
+    
+
+                var icon_1f6a2b46018a48309c1d7d75023b5d09 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4103115589d04965a35d1c6a550aa7bd.setIcon(icon_1f6a2b46018a48309c1d7d75023b5d09);
+            
+    
+            var popup_c576eb200b744558848c8185e3322c6a = L.popup({maxWidth: '300'});
+
+            
+                var html_8a0d2046b4c04ca0b66aa5183359a89c = $('<div id="html_8a0d2046b4c04ca0b66aa5183359a89c" style="width: 100.0%; height: 100.0%;"> Kusi Campers Casa Barranco </div>')[0];
+                popup_c576eb200b744558848c8185e3322c6a.setContent(html_8a0d2046b4c04ca0b66aa5183359a89c);
+            
+
+            marker_4103115589d04965a35d1c6a550aa7bd.bindPopup(popup_c576eb200b744558848c8185e3322c6a);
+
+            
+        
+    
+            var feature_group_db7e0e8660bd44a0b72a2b9c6d916b90 = L.featureGroup(
+                ).addTo(map_1efba1c050b740c8ba09f346417b06f2);
+        
+    
+
+            var marker_7101c4e5d352472191d571d0e01ebe85 = L.marker(
+                [-12.13762,-77.021429],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_db7e0e8660bd44a0b72a2b9c6d916b90);
+            
+    
+
+                var icon_1fbcf16083f244cda88df316ba0b625b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7101c4e5d352472191d571d0e01ebe85.setIcon(icon_1fbcf16083f244cda88df316ba0b625b);
+            
+    
+            var popup_6006bc2317944ee6a38708a543fbe928 = L.popup({maxWidth: '300'});
+
+            
+                var html_987502e21a814255be24462cf5bc3598 = $('<div id="html_987502e21a814255be24462cf5bc3598" style="width: 100.0%; height: 100.0%;"> Barranco Lodge</div>')[0];
+                popup_6006bc2317944ee6a38708a543fbe928.setContent(html_987502e21a814255be24462cf5bc3598);
+            
+
+            marker_7101c4e5d352472191d571d0e01ebe85.bindPopup(popup_6006bc2317944ee6a38708a543fbe928);
+
+            
+        
+    
+            var feature_group_49cfd55f01b84a0285ddf7f65495ac1b = L.featureGroup(
+                ).addTo(map_1efba1c050b740c8ba09f346417b06f2);
+        
+    
+
+            var marker_42cf6829f82943e0aca5356128f9acdf = L.marker(
+                [-12.137725,-77.018238],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_49cfd55f01b84a0285ddf7f65495ac1b);
+            
+    
+
+                var icon_a2fa7090c7d2474c9fa9a09f3a5cfb73 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_42cf6829f82943e0aca5356128f9acdf.setIcon(icon_a2fa7090c7d2474c9fa9a09f3a5cfb73);
+            
+    
+            var popup_491c808882134536a4b98dfcf55ce4fc = L.popup({maxWidth: '300'});
+
+            
+                var html_52b2dc834c96482db83fe99adf76408c = $('<div id="html_52b2dc834c96482db83fe99adf76408c" style="width: 100.0%; height: 100.0%;"> Montreal Hostal</div>')[0];
+                popup_491c808882134536a4b98dfcf55ce4fc.setContent(html_52b2dc834c96482db83fe99adf76408c);
+            
+
+            marker_42cf6829f82943e0aca5356128f9acdf.bindPopup(popup_491c808882134536a4b98dfcf55ce4fc);
+
+            
+        
+    
+            var feature_group_da449ba4808348ad9c651b5425ce4ee8 = L.featureGroup(
+                ).addTo(map_1efba1c050b740c8ba09f346417b06f2);
+        
+    
+
+            var marker_774acee2270f4b289a8b2ef5a1f7cffc = L.marker(
+                [-12.141423,-77.02207299999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_da449ba4808348ad9c651b5425ce4ee8);
+            
+    
+
+                var icon_2fa9a9079fdf4271bb37a068829d0f9e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_774acee2270f4b289a8b2ef5a1f7cffc.setIcon(icon_2fa9a9079fdf4271bb37a068829d0f9e);
+            
+    
+            var popup_77043a6ab68e42e49481ca7b516805fd = L.popup({maxWidth: '300'});
+
+            
+                var html_64e723fc717e4652878d146ccd37b47e = $('<div id="html_64e723fc717e4652878d146ccd37b47e" style="width: 100.0%; height: 100.0%;"> La Casa Barranco Hostel </div>')[0];
+                popup_77043a6ab68e42e49481ca7b516805fd.setContent(html_64e723fc717e4652878d146ccd37b47e);
+            
+
+            marker_774acee2270f4b289a8b2ef5a1f7cffc.bindPopup(popup_77043a6ab68e42e49481ca7b516805fd);
+
+            
+        
+    
+            var feature_group_0517ce3b6d7a42a48a471b04864aaabe = L.featureGroup(
+                ).addTo(map_1efba1c050b740c8ba09f346417b06f2);
+        
+    
+
+            var marker_c4becf09a7ae4ccb83f35417ef37e736 = L.marker(
+                [-12.14285,-77.020248],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_0517ce3b6d7a42a48a471b04864aaabe);
+            
+    
+
+                var icon_b4176efb82e3424992e66234f7b2aefb = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c4becf09a7ae4ccb83f35417ef37e736.setIcon(icon_b4176efb82e3424992e66234f7b2aefb);
+            
+    
+            var popup_e92179ee83e44201b626c271b700135c = L.popup({maxWidth: '300'});
+
+            
+                var html_713e0441a1c847af8121e8a29271aee9 = $('<div id="html_713e0441a1c847af8121e8a29271aee9" style="width: 100.0%; height: 100.0%;"> Hotel Boutique</div>')[0];
+                popup_e92179ee83e44201b626c271b700135c.setContent(html_713e0441a1c847af8121e8a29271aee9);
+            
+
+            marker_c4becf09a7ae4ccb83f35417ef37e736.bindPopup(popup_e92179ee83e44201b626c271b700135c);
+
+            
+        
+    
+            var feature_group_317c42105bfb44369125d12d0b90e4e3 = L.featureGroup(
+                ).addTo(map_1efba1c050b740c8ba09f346417b06f2);
+        
+    
+
+            var marker_5a50be10db7f43e3b3a35d4737bff048 = L.marker(
+                [-12.142252000000001,-77.023821],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_317c42105bfb44369125d12d0b90e4e3);
+            
+    
+
+                var icon_09dca3736ae946a39010788603808d4c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5a50be10db7f43e3b3a35d4737bff048.setIcon(icon_09dca3736ae946a39010788603808d4c);
+            
+    
+            var popup_ef6483f7d1d448f596d0bd0381091ec3 = L.popup({maxWidth: '300'});
+
+            
+                var html_927880a2ddfe46d09e827fa61f379cde = $('<div id="html_927880a2ddfe46d09e827fa61f379cde" style="width: 100.0%; height: 100.0%;"> La puerta verde</div>')[0];
+                popup_ef6483f7d1d448f596d0bd0381091ec3.setContent(html_927880a2ddfe46d09e827fa61f379cde);
+            
+
+            marker_5a50be10db7f43e3b3a35d4737bff048.bindPopup(popup_ef6483f7d1d448f596d0bd0381091ec3);
+
+            
+        
+    
+            var feature_group_d3c54a5532ff4eaca44f27272aca5c11 = L.featureGroup(
+                ).addTo(map_1efba1c050b740c8ba09f346417b06f2);
+        
+    
+
+            var marker_eb800209045c4f4dbf26e7ee94fc3510 = L.marker(
+                [-12.143059,-77.02344599999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_d3c54a5532ff4eaca44f27272aca5c11);
+            
+    
+
+                var icon_c251e1a50f484b3b9878c507d49a31d7 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_eb800209045c4f4dbf26e7ee94fc3510.setIcon(icon_c251e1a50f484b3b9878c507d49a31d7);
+            
+    
+            var popup_4246ec3c5b574cff8d6f4ab885a3e08a = L.popup({maxWidth: '300'});
+
+            
+                var html_cdf831d44b384477880ef435d94cf89c = $('<div id="html_cdf831d44b384477880ef435d94cf89c" style="width: 100.0%; height: 100.0%;"> Hotel B</div>')[0];
+                popup_4246ec3c5b574cff8d6f4ab885a3e08a.setContent(html_cdf831d44b384477880ef435d94cf89c);
+            
+
+            marker_eb800209045c4f4dbf26e7ee94fc3510.bindPopup(popup_4246ec3c5b574cff8d6f4ab885a3e08a);
+
+            
+        
+    
+            var feature_group_3c2a33bad172446891b89d3c8d7d94a4 = L.featureGroup(
+                ).addTo(map_1efba1c050b740c8ba09f346417b06f2);
+        
+    
+
+            var marker_d7e341889d7e42539f42524536e4c932 = L.marker(
+                [-12.143164,-77.023843],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_3c2a33bad172446891b89d3c8d7d94a4);
+            
+    
+
+                var icon_56a3362fd0e948d68a080f405940ae10 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d7e341889d7e42539f42524536e4c932.setIcon(icon_56a3362fd0e948d68a080f405940ae10);
+            
+    
+            var popup_10fcde301ada44d48109f7cc7f0b90c6 = L.popup({maxWidth: '300'});
+
+            
+                var html_1ae79962529a4949a1818aa827f7812b = $('<div id="html_1ae79962529a4949a1818aa827f7812b" style="width: 100.0%; height: 100.0%;"> Casa Republica Barranco Boutique Hotel </div>')[0];
+                popup_10fcde301ada44d48109f7cc7f0b90c6.setContent(html_1ae79962529a4949a1818aa827f7812b);
+            
+
+            marker_d7e341889d7e42539f42524536e4c932.bindPopup(popup_10fcde301ada44d48109f7cc7f0b90c6);
+
+            
+        
+    
+            var feature_group_2473652534dd4c50b18a8b37647b38bf = L.featureGroup(
+                ).addTo(map_1efba1c050b740c8ba09f346417b06f2);
+        
+    
+
+            var marker_b6e4f1bbb30f4d008bf9dbf595e9577c = L.marker(
+                [-12.14458,-77.023864],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_2473652534dd4c50b18a8b37647b38bf);
+            
+    
+
+                var icon_742631ed85e54d8eb6a8a08151aa912a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b6e4f1bbb30f4d008bf9dbf595e9577c.setIcon(icon_742631ed85e54d8eb6a8a08151aa912a);
+            
+    
+            var popup_09c196fae4e241d88d07914bcd7d86f2 = L.popup({maxWidth: '300'});
+
+            
+                var html_0cdf6d743c4e4ac0a4eae62ac3f311c0 = $('<div id="html_0cdf6d743c4e4ac0a4eae62ac3f311c0" style="width: 100.0%; height: 100.0%;"> Villa Barranco by Aranay Hotels </div>')[0];
+                popup_09c196fae4e241d88d07914bcd7d86f2.setContent(html_0cdf6d743c4e4ac0a4eae62ac3f311c0);
+            
+
+            marker_b6e4f1bbb30f4d008bf9dbf595e9577c.bindPopup(popup_09c196fae4e241d88d07914bcd7d86f2);
+
+            
+        
+    
+            var feature_group_ce3c99ce33104c7c9a370c9a5d92d338 = L.featureGroup(
+                ).addTo(map_1efba1c050b740c8ba09f346417b06f2);
+        
+    
+
+            var marker_d342c779da024f6aa1070c182bc50798 = L.marker(
+                [-12.143384,-77.022341],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_ce3c99ce33104c7c9a370c9a5d92d338);
+            
+    
+
+                var icon_1560d7524ed74b7db76d4afba2b62011 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d342c779da024f6aa1070c182bc50798.setIcon(icon_1560d7524ed74b7db76d4afba2b62011);
+            
+    
+            var popup_6e4d9ecc07cd4ef19107a3af2e89a5da = L.popup({maxWidth: '300'});
+
+            
+                var html_bf7790c76f6d47bdab683ff7e590c6d1 = $('<div id="html_bf7790c76f6d47bdab683ff7e590c6d1" style="width: 100.0%; height: 100.0%;"> Casa de Leeuw </div>')[0];
+                popup_6e4d9ecc07cd4ef19107a3af2e89a5da.setContent(html_bf7790c76f6d47bdab683ff7e590c6d1);
+            
+
+            marker_d342c779da024f6aa1070c182bc50798.bindPopup(popup_6e4d9ecc07cd4ef19107a3af2e89a5da);
+
+            
+        
+    
+            var feature_group_332627a8c7c14cb59480886f7f307140 = L.featureGroup(
+                ).addTo(map_1efba1c050b740c8ba09f346417b06f2);
+        
+    
+
+            var marker_c036c137553f449c9333a518051c6687 = L.marker(
+                [-12.14371,-77.022051],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_332627a8c7c14cb59480886f7f307140);
+            
+    
+
+                var icon_1a867e34fa774796a2532d747452d1ab = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c036c137553f449c9333a518051c6687.setIcon(icon_1a867e34fa774796a2532d747452d1ab);
+            
+    
+            var popup_92c57bff267a405d8bc84e127c34f061 = L.popup({maxWidth: '300'});
+
+            
+                var html_acfdba4499d74c8592c154356716da4c = $('<div id="html_acfdba4499d74c8592c154356716da4c" style="width: 100.0%; height: 100.0%;"> Lima Wari Hotel Boutique</div>')[0];
+                popup_92c57bff267a405d8bc84e127c34f061.setContent(html_acfdba4499d74c8592c154356716da4c);
+            
+
+            marker_c036c137553f449c9333a518051c6687.bindPopup(popup_92c57bff267a405d8bc84e127c34f061);
+
+            
+        
+    
+            var feature_group_b4b2b7509a5c447bb6cbc412e13cbaca = L.featureGroup(
+                ).addTo(map_1efba1c050b740c8ba09f346417b06f2);
+        
+    
+
+            var marker_19fb17a60710424d8518b1debd439a7e = L.marker(
+                [-12.143846,-77.022051],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_b4b2b7509a5c447bb6cbc412e13cbaca);
+            
+    
+
+                var icon_d76ca2ffc95a418a994e0ccc03f6585e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_19fb17a60710424d8518b1debd439a7e.setIcon(icon_d76ca2ffc95a418a994e0ccc03f6585e);
+            
+    
+            var popup_34b622e4e0ce43ec9dc99a04794fa323 = L.popup({maxWidth: '300'});
+
+            
+                var html_6630ec5e980e49daa13c092d06d597db = $('<div id="html_6630ec5e980e49daa13c092d06d597db" style="width: 100.0%; height: 100.0%;"> One Hostel</div>')[0];
+                popup_34b622e4e0ce43ec9dc99a04794fa323.setContent(html_6630ec5e980e49daa13c092d06d597db);
+            
+
+            marker_19fb17a60710424d8518b1debd439a7e.bindPopup(popup_34b622e4e0ce43ec9dc99a04794fa323);
+
+            
+        
+    
+            var feature_group_888698147a2441a5b1f9055a24e585b8 = L.featureGroup(
+                ).addTo(map_1efba1c050b740c8ba09f346417b06f2);
+        
+    
+
+            var marker_12f46ef93fcc48219fff7d9ce2d84425 = L.marker(
+                [-12.144349,-77.021815],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_888698147a2441a5b1f9055a24e585b8);
+            
+    
+
+                var icon_003bb90b524d4a2e898c1c73bc11abb6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_12f46ef93fcc48219fff7d9ce2d84425.setIcon(icon_003bb90b524d4a2e898c1c73bc11abb6);
+            
+    
+            var popup_68f39f01a7684fb69c0f6ddfe0d39837 = L.popup({maxWidth: '300'});
+
+            
+                var html_f1cbc4b4f50048d3953c6de122a42683 = $('<div id="html_f1cbc4b4f50048d3953c6de122a42683" style="width: 100.0%; height: 100.0%;"> Casa Falleri Boutique Hotel</div>')[0];
+                popup_68f39f01a7684fb69c0f6ddfe0d39837.setContent(html_f1cbc4b4f50048d3953c6de122a42683);
+            
+
+            marker_12f46ef93fcc48219fff7d9ce2d84425.bindPopup(popup_68f39f01a7684fb69c0f6ddfe0d39837);
+
+            
+        
+    
+            var feature_group_fe77508a9fab403f8f627af15556c518 = L.featureGroup(
+                ).addTo(map_1efba1c050b740c8ba09f346417b06f2);
+        
+    
+
+            var marker_6c1865c95acb43f9bc8b53b2adca1ca8 = L.marker(
+                [-12.145199,-77.02172900000001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_fe77508a9fab403f8f627af15556c518);
+            
+    
+
+                var icon_951da3500667447c9775badeb7f525b4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6c1865c95acb43f9bc8b53b2adca1ca8.setIcon(icon_951da3500667447c9775badeb7f525b4);
+            
+    
+            var popup_e39c96269ca6443bb5e75462c1e1038c = L.popup({maxWidth: '300'});
+
+            
+                var html_a6a8348baccc4f2baa5fffe29b3a92ad = $('<div id="html_a6a8348baccc4f2baa5fffe29b3a92ad" style="width: 100.0%; height: 100.0%;"> Hostal Gemina</div>')[0];
+                popup_e39c96269ca6443bb5e75462c1e1038c.setContent(html_a6a8348baccc4f2baa5fffe29b3a92ad);
+            
+
+            marker_6c1865c95acb43f9bc8b53b2adca1ca8.bindPopup(popup_e39c96269ca6443bb5e75462c1e1038c);
+
+            
+        
+    
+            var feature_group_12e8bcb01c37495694a35d21e58a05d4 = L.featureGroup(
+                ).addTo(map_1efba1c050b740c8ba09f346417b06f2);
+        
+    
+
+            var marker_adb80a5d695d410fb5d95c4d3cb2445f = L.marker(
+                [-12.143636,-77.018596],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_12e8bcb01c37495694a35d21e58a05d4);
+            
+    
+
+                var icon_41ea6e5ba5f44e9789c6a7b529f1263f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_adb80a5d695d410fb5d95c4d3cb2445f.setIcon(icon_41ea6e5ba5f44e9789c6a7b529f1263f);
+            
+    
+            var popup_0bf1cc78ad6744f880646a1e0665f08d = L.popup({maxWidth: '300'});
+
+            
+                var html_2e5735d2ca5849aabae3446d0714356b = $('<div id="html_2e5735d2ca5849aabae3446d0714356b" style="width: 100.0%; height: 100.0%;"> Urban House</div>')[0];
+                popup_0bf1cc78ad6744f880646a1e0665f08d.setContent(html_2e5735d2ca5849aabae3446d0714356b);
+            
+
+            marker_adb80a5d695d410fb5d95c4d3cb2445f.bindPopup(popup_0bf1cc78ad6744f880646a1e0665f08d);
+
+            
+        
+</script>

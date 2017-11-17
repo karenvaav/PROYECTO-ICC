@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_8104dbeee8b540a89fe1c450a9396d32 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_8104dbeee8b540a89fe1c450a9396d32" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_8104dbeee8b540a89fe1c450a9396d32 = L.map(
+                                  'map_8104dbeee8b540a89fe1c450a9396d32',
+                                  {center: [-12.143927,-77.019295],
+                                  zoom: 10,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_09296e42147c44e1b7da29737b0489d8 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_8104dbeee8b540a89fe1c450a9396d32);
+        
+    
+            var feature_group_66fa0eb48c6a4b6cb3f971b6c13d39e6 = L.featureGroup(
+                ).addTo(map_8104dbeee8b540a89fe1c450a9396d32);
+        
+    
+
+            var marker_24f66ba91924455496825496a6cc2b23 = L.marker(
+                [-12.135193,-77.027516],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_66fa0eb48c6a4b6cb3f971b6c13d39e6);
+            
+    
+
+                var icon_500d4faa4c2a409bbba756da01172e28 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_24f66ba91924455496825496a6cc2b23.setIcon(icon_500d4faa4c2a409bbba756da01172e28);
+            
+    
+            var popup_a0a566ca463745d0a1590c21ed1defe1 = L.popup({maxWidth: '300'});
+
+            
+                var html_31bda22dfa3a4bf3a1e18b530b475cc1 = $('<div id="html_31bda22dfa3a4bf3a1e18b530b475cc1" style="width: 100.0%; height: 100.0%;"> Belmond Miraflores Park</div>')[0];
+                popup_a0a566ca463745d0a1590c21ed1defe1.setContent(html_31bda22dfa3a4bf3a1e18b530b475cc1);
+            
+
+            marker_24f66ba91924455496825496a6cc2b23.bindPopup(popup_a0a566ca463745d0a1590c21ed1defe1);
+
+            
+        
+    
+            var feature_group_c588c91a92784fac85f4967f8ea16151 = L.featureGroup(
+                ).addTo(map_8104dbeee8b540a89fe1c450a9396d32);
+        
+    
+
+            var marker_7b2cc087bc8d476da9ece15e6450e71d = L.marker(
+                [-12.133801,-77.026884],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_c588c91a92784fac85f4967f8ea16151);
+            
+    
+
+                var icon_5f9e13ab9dee43a5b178f4a95de49740 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7b2cc087bc8d476da9ece15e6450e71d.setIcon(icon_5f9e13ab9dee43a5b178f4a95de49740);
+            
+    
+            var popup_a169dfbba8a04e94a01d403c6b0656f9 = L.popup({maxWidth: '300'});
+
+            
+                var html_9653686206f34a2d93b6d85277730b2d = $('<div id="html_9653686206f34a2d93b6d85277730b2d" style="width: 100.0%; height: 100.0%;"> Lima Wasi Hotel </div>')[0];
+                popup_a169dfbba8a04e94a01d403c6b0656f9.setContent(html_9653686206f34a2d93b6d85277730b2d);
+            
+
+            marker_7b2cc087bc8d476da9ece15e6450e71d.bindPopup(popup_a169dfbba8a04e94a01d403c6b0656f9);
+
+            
+        
+    
+            var feature_group_8bf13d743b3444549c5794210b871040 = L.featureGroup(
+                ).addTo(map_8104dbeee8b540a89fe1c450a9396d32);
+        
+    
+
+            var marker_48e023e0e7bc4c8a95070a9dd7489cfe = L.marker(
+                [-12.13419,-77.023237],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_8bf13d743b3444549c5794210b871040);
+            
+    
+
+                var icon_e30465da3e504dc3ab879f5fa177e7c2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_48e023e0e7bc4c8a95070a9dd7489cfe.setIcon(icon_e30465da3e504dc3ab879f5fa177e7c2);
+            
+    
+            var popup_f91ff015e9fe4405be14bf387e851b39 = L.popup({maxWidth: '300'});
+
+            
+                var html_3a795bfb7e6a43b287357b607e251951 = $('<div id="html_3a795bfb7e6a43b287357b607e251951" style="width: 100.0%; height: 100.0%;"> Hostal Killari Hotel </div>')[0];
+                popup_f91ff015e9fe4405be14bf387e851b39.setContent(html_3a795bfb7e6a43b287357b607e251951);
+            
+
+            marker_48e023e0e7bc4c8a95070a9dd7489cfe.bindPopup(popup_f91ff015e9fe4405be14bf387e851b39);
+
+            
+        
+    
+            var feature_group_897855fedd56431688f4daf02f25252b = L.featureGroup(
+                ).addTo(map_8104dbeee8b540a89fe1c450a9396d32);
+        
+    
+
+            var marker_e3fced5905464348a47ead284788f47d = L.marker(
+                [-12.132063,-77.022256],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_897855fedd56431688f4daf02f25252b);
+            
+    
+
+                var icon_4c69629e5ee74ffc8b6d8631b86c12ba = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e3fced5905464348a47ead284788f47d.setIcon(icon_4c69629e5ee74ffc8b6d8631b86c12ba);
+            
+    
+            var popup_5d98ab2df30b469eb342c3c83edffb2e = L.popup({maxWidth: '300'});
+
+            
+                var html_a544dee2308d4982b119415eacdc99ee = $('<div id="html_a544dee2308d4982b119415eacdc99ee" style="width: 100.0%; height: 100.0%;"> Miraflores Boutique Hotel</div>')[0];
+                popup_5d98ab2df30b469eb342c3c83edffb2e.setContent(html_a544dee2308d4982b119415eacdc99ee);
+            
+
+            marker_e3fced5905464348a47ead284788f47d.bindPopup(popup_5d98ab2df30b469eb342c3c83edffb2e);
+
+            
+        
+    
+            var feature_group_894831bb8b92446fadfa760cf91342c3 = L.featureGroup(
+                ).addTo(map_8104dbeee8b540a89fe1c450a9396d32);
+        
+    
+
+            var marker_3e3a1921f9a543d98b32465203877449 = L.marker(
+                [-12.131598,-77.022899],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_894831bb8b92446fadfa760cf91342c3);
+            
+    
+
+                var icon_f5d093c3d7874642b1e14eba5bb4aae6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3e3a1921f9a543d98b32465203877449.setIcon(icon_f5d093c3d7874642b1e14eba5bb4aae6);
+            
+    
+            var popup_69432aa866b0456888a7fbd33e15f2d3 = L.popup({maxWidth: '300'});
+
+            
+                var html_059cbaae84344bb3bd2f72528ccaba4c = $('<div id="html_059cbaae84344bb3bd2f72528ccaba4c" style="width: 100.0%; height: 100.0%;"> IFE Boutique Hotel</div>')[0];
+                popup_69432aa866b0456888a7fbd33e15f2d3.setContent(html_059cbaae84344bb3bd2f72528ccaba4c);
+            
+
+            marker_3e3a1921f9a543d98b32465203877449.bindPopup(popup_69432aa866b0456888a7fbd33e15f2d3);
+
+            
+        
+    
+            var feature_group_1fb57263364c4991bc9f01b8a577a695 = L.featureGroup(
+                ).addTo(map_8104dbeee8b540a89fe1c450a9396d32);
+        
+    
+
+            var marker_d602dba49e654babb0cb541578093d59 = L.marker(
+                [-12.132572,-77.027344],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_1fb57263364c4991bc9f01b8a577a695);
+            
+    
+
+                var icon_b2687132096644b0a3fb54ba98608a3a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d602dba49e654babb0cb541578093d59.setIcon(icon_b2687132096644b0a3fb54ba98608a3a);
+            
+    
+            var popup_f4e9f803b94440ee90124bcb0bc08901 = L.popup({maxWidth: '300'});
+
+            
+                var html_c6073005a7f8484b9ee6fbc16b8da233 = $('<div id="html_c6073005a7f8484b9ee6fbc16b8da233" style="width: 100.0%; height: 100.0%;"> Central de Reservas Hotel las Dunas</div>')[0];
+                popup_f4e9f803b94440ee90124bcb0bc08901.setContent(html_c6073005a7f8484b9ee6fbc16b8da233);
+            
+
+            marker_d602dba49e654babb0cb541578093d59.bindPopup(popup_f4e9f803b94440ee90124bcb0bc08901);
+
+            
+        
+    
+            var feature_group_254837c23328407da0c39449215fc936 = L.featureGroup(
+                ).addTo(map_8104dbeee8b540a89fe1c450a9396d32);
+        
+    
+
+            var marker_287e8f5bdfcd44db9e8e79992b924700 = L.marker(
+                [-12.131328,-77.028172],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_254837c23328407da0c39449215fc936);
+            
+    
+
+                var icon_32498aee38704bc9b4b98edd3f2996de = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_287e8f5bdfcd44db9e8e79992b924700.setIcon(icon_32498aee38704bc9b4b98edd3f2996de);
+            
+    
+            var popup_2adfcaa8800f4c0aaeba98234f883fa2 = L.popup({maxWidth: '300'});
+
+            
+                var html_b9411784fb694b378697b685068c7473 = $('<div id="html_b9411784fb694b378697b685068c7473" style="width: 100.0%; height: 100.0%;"> Atelier Hotel Boutique</div>')[0];
+                popup_2adfcaa8800f4c0aaeba98234f883fa2.setContent(html_b9411784fb694b378697b685068c7473);
+            
+
+            marker_287e8f5bdfcd44db9e8e79992b924700.bindPopup(popup_2adfcaa8800f4c0aaeba98234f883fa2);
+
+            
+        
+    
+            var feature_group_32bdaa360afe46969c032e0d2b6dd84f = L.featureGroup(
+                ).addTo(map_8104dbeee8b540a89fe1c450a9396d32);
+        
+    
+
+            var marker_3b0e29ca9b34469fb2184060dcbccb0d = L.marker(
+                [-12.130879,-77.026333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_32bdaa360afe46969c032e0d2b6dd84f);
+            
+    
+
+                var icon_ece0c3b08d0e49428636b16f743ebea1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3b0e29ca9b34469fb2184060dcbccb0d.setIcon(icon_ece0c3b08d0e49428636b16f743ebea1);
+            
+    
+            var popup_64721ec2148b402593f97c1a1af5d8b6 = L.popup({maxWidth: '300'});
+
+            
+                var html_9950e20e79fd48d4aa2e59cbd72d5d51 = $('<div id="html_9950e20e79fd48d4aa2e59cbd72d5d51" style="width: 100.0%; height: 100.0%;"> Hotel El Tambo I</div>')[0];
+                popup_64721ec2148b402593f97c1a1af5d8b6.setContent(html_9950e20e79fd48d4aa2e59cbd72d5d51);
+            
+
+            marker_3b0e29ca9b34469fb2184060dcbccb0d.bindPopup(popup_64721ec2148b402593f97c1a1af5d8b6);
+
+            
+        
+    
+            var feature_group_61f339b0c32c43a9b6e78223e671ccf1 = L.featureGroup(
+                ).addTo(map_8104dbeee8b540a89fe1c450a9396d32);
+        
+    
+
+            var marker_888d37219409405a8d1aea5f1ba73012 = L.marker(
+                [-12.130996000000001,-77.019695],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_61f339b0c32c43a9b6e78223e671ccf1);
+            
+    
+
+                var icon_341e79b1de004f3badeb939017d0f5ec = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_888d37219409405a8d1aea5f1ba73012.setIcon(icon_341e79b1de004f3badeb939017d0f5ec);
+            
+    
+            var popup_56ff6e2f933f435585d08e0d8b8614ac = L.popup({maxWidth: '300'});
+
+            
+                var html_cccd0d1631b64fd7a8d2d54d1f7e845a = $('<div id="html_cccd0d1631b64fd7a8d2d54d1f7e845a" style="width: 100.0%; height: 100.0%;"> Mansion San Antonio</div>')[0];
+                popup_56ff6e2f933f435585d08e0d8b8614ac.setContent(html_cccd0d1631b64fd7a8d2d54d1f7e845a);
+            
+
+            marker_888d37219409405a8d1aea5f1ba73012.bindPopup(popup_56ff6e2f933f435585d08e0d8b8614ac);
+
+            
+        
+    
+            var feature_group_efc0f211807d4d5090d51af75d1deb26 = L.featureGroup(
+                ).addTo(map_8104dbeee8b540a89fe1c450a9396d32);
+        
+    
+
+            var marker_93f02d0b752748c980cb552dd5d5e866 = L.marker(
+                [-12.130996000000001,-77.019695],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_efc0f211807d4d5090d51af75d1deb26);
+            
+    
+
+                var icon_3f2754a10de8420f8ccbe04243046862 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_93f02d0b752748c980cb552dd5d5e866.setIcon(icon_3f2754a10de8420f8ccbe04243046862);
+            
+    
+            var popup_8d3c1333064142deb7351c77c221bfff = L.popup({maxWidth: '300'});
+
+            
+                var html_f00d3cf1e47644f581552733da3ad103 = $('<div id="html_f00d3cf1e47644f581552733da3ad103" style="width: 100.0%; height: 100.0%;"> Lima Backpackers</div>')[0];
+                popup_8d3c1333064142deb7351c77c221bfff.setContent(html_f00d3cf1e47644f581552733da3ad103);
+            
+
+            marker_93f02d0b752748c980cb552dd5d5e866.bindPopup(popup_8d3c1333064142deb7351c77c221bfff);
+
+            
+        
+    
+            var feature_group_907124de98704776a847642b447faecd = L.featureGroup(
+                ).addTo(map_8104dbeee8b540a89fe1c450a9396d32);
+        
+    
+
+            var marker_53c93bcd88db4f5388739cf5fe221ff6 = L.marker(
+                [-12.141678,-77.016756],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_907124de98704776a847642b447faecd);
+            
+    
+
+                var icon_48451fcdf8884e2981d1b1a3ef60b34d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_53c93bcd88db4f5388739cf5fe221ff6.setIcon(icon_48451fcdf8884e2981d1b1a3ef60b34d);
+            
+    
+            var popup_cee1152f4c664fe19ba3f53034f83836 = L.popup({maxWidth: '300'});
+
+            
+                var html_e1664ded30e94999bf69fb9de9180346 = $('<div id="html_e1664ded30e94999bf69fb9de9180346" style="width: 100.0%; height: 100.0%;"> Hospedaje Corpancho</div>')[0];
+                popup_cee1152f4c664fe19ba3f53034f83836.setContent(html_e1664ded30e94999bf69fb9de9180346);
+            
+
+            marker_53c93bcd88db4f5388739cf5fe221ff6.bindPopup(popup_cee1152f4c664fe19ba3f53034f83836);
+
+            
+        
+    
+            var feature_group_cf23e1cbe1b64cd193d925cb4127f719 = L.featureGroup(
+                ).addTo(map_8104dbeee8b540a89fe1c450a9396d32);
+        
+    
+
+            var marker_62fa646809e142e1b4e2213f17a086a9 = L.marker(
+                [-12.157469,-77.023404],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_cf23e1cbe1b64cd193d925cb4127f719);
+            
+    
+
+                var icon_9b95c7af4004493b81ad71035d0030b8 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_62fa646809e142e1b4e2213f17a086a9.setIcon(icon_9b95c7af4004493b81ad71035d0030b8);
+            
+    
+            var popup_328640ac89c040c7ad2dda899061aacd = L.popup({maxWidth: '300'});
+
+            
+                var html_ce19a762301d4c0d859774c742bf59c0 = $('<div id="html_ce19a762301d4c0d859774c742bf59c0" style="width: 100.0%; height: 100.0%;"> Casita Libertad Homestay II</div>')[0];
+                popup_328640ac89c040c7ad2dda899061aacd.setContent(html_ce19a762301d4c0d859774c742bf59c0);
+            
+
+            marker_62fa646809e142e1b4e2213f17a086a9.bindPopup(popup_328640ac89c040c7ad2dda899061aacd);
+
+            
+        
+    
+            var feature_group_c722330aab504ef99c58013814de6b77 = L.featureGroup(
+                ).addTo(map_8104dbeee8b540a89fe1c450a9396d32);
+        
+    
+
+            var marker_5d6e06e56efd4dab81a403650ec7f082 = L.marker(
+                [-12.155836,-77.015633],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_c722330aab504ef99c58013814de6b77);
+            
+    
+
+                var icon_8ba818c6f408491e97d628e50d37c95a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5d6e06e56efd4dab81a403650ec7f082.setIcon(icon_8ba818c6f408491e97d628e50d37c95a);
+            
+    
+            var popup_4f200b34f2b647cdacb79330f8c2be0c = L.popup({maxWidth: '300'});
+
+            
+                var html_f5e9c697946c49b680d367f79aff17ba = $('<div id="html_f5e9c697946c49b680d367f79aff17ba" style="width: 100.0%; height: 100.0%;"> Hostal Jovita </div>')[0];
+                popup_4f200b34f2b647cdacb79330f8c2be0c.setContent(html_f5e9c697946c49b680d367f79aff17ba);
+            
+
+            marker_5d6e06e56efd4dab81a403650ec7f082.bindPopup(popup_4f200b34f2b647cdacb79330f8c2be0c);
+
+            
+        
+    
+            var feature_group_07406a5269e14ec6986f077fbf4c4b08 = L.featureGroup(
+                ).addTo(map_8104dbeee8b540a89fe1c450a9396d32);
+        
+    
+
+            var marker_057069fa0852455fb93c2912ec8c3d38 = L.marker(
+                [-12.152756,-77.021836],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_07406a5269e14ec6986f077fbf4c4b08);
+            
+    
+
+                var icon_8614fea3cd644c54ad937d00681fef06 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_057069fa0852455fb93c2912ec8c3d38.setIcon(icon_8614fea3cd644c54ad937d00681fef06);
+            
+    
+            var popup_6139db9b23cb467a872a6dd5ef824fed = L.popup({maxWidth: '300'});
+
+            
+                var html_43876fc3bb7b4e64a9e60e8a4146d0b6 = $('<div id="html_43876fc3bb7b4e64a9e60e8a4146d0b6" style="width: 100.0%; height: 100.0%;"> El Pasadizo</div>')[0];
+                popup_6139db9b23cb467a872a6dd5ef824fed.setContent(html_43876fc3bb7b4e64a9e60e8a4146d0b6);
+            
+
+            marker_057069fa0852455fb93c2912ec8c3d38.bindPopup(popup_6139db9b23cb467a872a6dd5ef824fed);
+
+            
+        
+    
+            var feature_group_7951087e356e40d6a247f1ea7836149c = L.featureGroup(
+                ).addTo(map_8104dbeee8b540a89fe1c450a9396d32);
+        
+    
+
+            var marker_5a158facbab940afa1335014806b7d2f = L.marker(
+                [-12.152819000000001,-77.020892],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_7951087e356e40d6a247f1ea7836149c);
+            
+    
+
+                var icon_a517595e429a4369a62116d206e49927 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5a158facbab940afa1335014806b7d2f.setIcon(icon_a517595e429a4369a62116d206e49927);
+            
+    
+            var popup_6d5eeeccb61e479ea13b350b2f8a891d = L.popup({maxWidth: '300'});
+
+            
+                var html_a601da3775b74733ba697f4c4b50a321 = $('<div id="html_a601da3775b74733ba697f4c4b50a321" style="width: 100.0%; height: 100.0%;"> Alberge Kaypacha Wasi </div>')[0];
+                popup_6d5eeeccb61e479ea13b350b2f8a891d.setContent(html_a601da3775b74733ba697f4c4b50a321);
+            
+
+            marker_5a158facbab940afa1335014806b7d2f.bindPopup(popup_6d5eeeccb61e479ea13b350b2f8a891d);
+
+            
+        
+</script>
